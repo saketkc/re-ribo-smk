@@ -2,7 +2,7 @@
 RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/samples_to_process/SRP017942_human'
 
 ## Output directory
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP017942_human'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP017942'
 
 ## Genome fasta location
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/hg38.fa'

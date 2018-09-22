@@ -62,6 +62,8 @@ rule all:
         'multiqc_report/aggregated_report.html',
         'reports/riboraptor_report_summarized.html',
         expand('reports/{sample}_riboraptor_report.html', sample=SRX_SAMPLES),
+        expand('qc_post_trimming/{sample}_fastqc.zip', sample=ALL_SRR),
+        expand('qc/{sample}_fastqc.zip', sample=ALL_SRR),
         expand('plots/periodicity/{sample}.png', sample=SRX_SAMPLES),
         expand('bigWig_lengthwise_normalized/{sample}/{fragment_length}/{orientation}_{strand}.bw',
                sample=SRX_SAMPLES,
@@ -99,8 +101,8 @@ rule perform_qc:
         'fastq_merged/{sample}.fastq.gz'
     benchmark: 'benchmarks/perform_qc/{sample}.txt'
     output:
-       temp('qc/{sample}_fastqc.html'),
-       temp('qc/{sample}_fastqc.zip'),
+       'qc/{sample}_fastqc.html',
+       'qc/{sample}_fastqc.zip',
     params:
         out_dir = 'qc'
     resources:
@@ -123,7 +125,7 @@ rule perfom_trimming_merged:
         adaptor_type = '--illumina'
     shell:
         r'''
-        trim_galore {params.adaptor_type} -o {params.out_dir} \
+        trim_galore -o {params.out_dir} \
         -q {params.phred_cutoff} {input.R1}
         '''
 
@@ -133,7 +135,7 @@ rule perform_trimming:
         R1 = 'sratofastq/{sample}.fastq.gz'
     benchmark: 'benchmarks/perform_trimming/{sample}.txt'
     output:
-        temp('preprocessed/{sample}_trimmed.fq.gz')
+        'preprocessed/{sample}_trimmed.fq.gz'
     params:
         out_dir = 'preprocessed',
         phred_cutoff = 5,
@@ -144,10 +146,24 @@ rule perform_trimming:
     shell:
         r'''
         trim_galore -o {params.out_dir} \
-        --length {params.min_length} \
-        --max_length {params.max_length} \
-        --illumina \
         -q {params.phred_cutoff} {input.R1}
+        '''
+
+rule perform_qc_post_trimming:
+    input:
+        'preprocessed/{sample}_trimmed.fq.gz'
+    benchmark: 'benchmarks/perform_qc_post_trimming/{sample}.txt'
+    output:
+       'qc_post_trimming/{sample}_fastqc.html',
+       'qc_post_trimming/{sample}_fastqc.zip',
+    params:
+        out_dir = 'qc_post_trimming'
+    resources:
+        mem_mb=10000
+    shell:
+        r'''
+        fastqc -o {params.out_dir} \
+        -f fastq {input}
         '''
 
 

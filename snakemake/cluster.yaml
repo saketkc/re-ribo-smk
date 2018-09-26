@@ -6,6 +6,14 @@ __default__:
     logout: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.out'
     logerror: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.err'
 
+bam_to_bedgraph:
+    cores: 1
+    mem: '40gb'
+
+bigwig_from_uniq_bedgraph_raw:
+    cores: 1
+    mem: '40gb'
+
 create_index:
     cores: 16
     mem: '40gb'

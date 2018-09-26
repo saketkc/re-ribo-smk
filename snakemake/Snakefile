@@ -41,7 +41,7 @@ def sra_to_fastq_input(wildcards):
     for srx_id in list(SRX_ID.keys()):
         value = SRX_ID[srx_id]
         if srr_id in list(value):
-            return str(join(RAWDATA_DIR, srx_id, srr_id+'.sra'))
+            return ancient(str(join(RAWDATA_DIR, srx_id, srr_id+'.sra')))
     print("WRONG encodeterend: {}".format(srr_id))
 
 
@@ -63,8 +63,8 @@ rule all:
         'multiqc_report/aggregated_report.html',
         'reports/riboraptor_report_summarized.html',
         expand('reports/{sample}_riboraptor_report.html', sample=SRX_SAMPLES),
-        expand('qc_post_trimming/{sample}_fastqc.zip', sample=ALL_SRR),
-        expand('qc/{sample}_fastqc.zip', sample=ALL_SRR),
+        expand('qc_post_trimming/{sample}_trimmed_trimmed_fastqc.zip', sample=ALL_SRR),
+        expand('qc/{sample}_fastqc.zip', sample=SRX_SAMPLES),
         expand('plots/periodicity/{sample}.png', sample=SRX_SAMPLES),
         expand('bigWig_lengthwise_normalized/{sample}/{fragment_length}/{orientation}_{strand}.bw',
                sample=SRX_SAMPLES,
@@ -119,7 +119,7 @@ rule perfom_trimming_merged:
     input:
         R1 = 'fastq_merged/{sample}.fastq.gz',
     benchmark: 'benchmarks/perform_trimming_merged/{sample}.txt'
-    output: temp('merged_preprocessed/{sample}_trimmed.fq.gz')
+    output: 'merged_preprocessed/{sample}_trimmed.fq.gz'
     params:
         out_dir = 'merged_preprocessed',
         phred_cutoff = 5,
@@ -159,8 +159,8 @@ rule perform_qc_post_trimming:
         'preprocessed/{sample}_trimmed_trimmed.fq.gz'
     benchmark: 'benchmarks/perform_qc_post_trimming/{sample}.txt'
     output:
-       'qc_post_trimming/{sample}_fastqc.html',
-       'qc_post_trimming/{sample}_fastqc.zip',
+       'qc_post_trimming/{sample}_trimmed_trimmed_fastqc.html',
+       'qc_post_trimming/{sample}_trimmed_trimmed_fastqc.zip',
     params:
         out_dir = 'qc_post_trimming'
     resources:

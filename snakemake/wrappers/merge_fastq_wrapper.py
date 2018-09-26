@@ -1,4 +1,6 @@
 import os
 from snakemake.shell import shell
 
-shell(r'''cat {snakemake.input.dynamic_input} > {snakemake.output}''')
+input = (' ').join(snakemake.input.dynamic_input)
+
+shell(r'''cat {input} > {snakemake.output}''')

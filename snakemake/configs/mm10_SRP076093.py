@@ -1,6 +1,6 @@
 
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/mm10/SRP064304'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/mm10/SRP064304'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/mm10/SRP076093'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/mm10/SRP076093'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/mm10/fasta/mm10.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/mm10/fasta/mm10.chrom.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/mm10/star_annotated'

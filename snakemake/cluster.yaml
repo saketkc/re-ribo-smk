@@ -60,7 +60,7 @@ pickle_counts_utr5:
 
 create_hdf:
     cores: 1
-    mem: '60gb'
+    mem: '80gb'
 
 hdf_to_bw:
     cores: 1

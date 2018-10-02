@@ -18,6 +18,7 @@ pass1_dir = snakemake.params.pass1_dir
 pass2_dir = snakemake.params.pass2_dir
 output_1 = snakemake.output.pass1_fq
 output_2 = snakemake.output.pass2_fq
+output_2_report = output_2 + '_trimming_report.txt'
 
 # Do first pass
 shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
@@ -30,6 +31,7 @@ histogram = fastq_kmer_histogram(output_1)
 adapter = get_top_kmer(histogram)
 if adapter is None:
     shell(r'''cp -r {output_1} {output_2}''')
+    shell(r'''echo "No adapter found in second pass" > {output_2_report}''')
 else:
     # Else just copy
     shell(r'''trim_galore -o {pass2_dir} --length {params.min_length} \

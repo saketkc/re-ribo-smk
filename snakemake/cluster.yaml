@@ -12,7 +12,7 @@ perform_trimming:
 
 bam_to_bedgraph:
     cores: 1
-    mem: '40gb'
+    mem: '10gb'
 
 bigwig_from_uniq_bedgraph_raw:
     cores: 1
@@ -43,7 +43,7 @@ fragment_length_pickle:
     mem: '40gb'
 
 merge_bams:
-    cores: 8
+    cores: 16
     mem: '40gb'
 
 pickle_counts_cds:
@@ -60,7 +60,7 @@ pickle_counts_utr5:
 
 create_hdf:
     cores: 1
-    mem: '80gb'
+    mem: '40gb'
 
 hdf_to_bw:
     cores: 1
@@ -68,7 +68,7 @@ hdf_to_bw:
 
 export_metagene_individual:
     cores: 1
-    mem: '8gb'
+    mem: '4gb'
 
 report:
     cores: 1

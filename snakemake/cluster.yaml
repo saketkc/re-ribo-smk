@@ -6,6 +6,10 @@ __default__:
     logout: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.out'
     logerror: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.err'
 
+sra_to_fastq:
+    cores: 1
+    mem: '8gb'
+
 perform_trimming:
     cores: 1
     mem: '10gb'
@@ -44,7 +48,7 @@ fragment_length_pickle:
 
 merge_bams:
     cores: 16
-    mem: '40gb'
+    mem: '80gb'
 
 pickle_counts_cds:
     cores: 1
@@ -60,7 +64,7 @@ pickle_counts_utr5:
 
 create_hdf:
     cores: 1
-    mem: '40gb'
+    mem: '100gb'
 
 hdf_to_bw:
     cores: 1

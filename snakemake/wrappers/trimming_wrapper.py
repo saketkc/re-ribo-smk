@@ -18,22 +18,32 @@ pass1_dir = snakemake.params.pass1_dir
 pass2_dir = snakemake.params.pass2_dir
 output_1 = snakemake.output.pass1_fq
 output_2 = snakemake.output.pass2_fq
+adapter = snakemake.params.adapter
+output_1_report = output_1 + '_trimming_report.txt'
 output_2_report = output_2 + '_trimming_report.txt'
 
 # Do first pass
-shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
-      -q {params.phred_cutoff} {snakemake.input.R1}''')
+if adapter is None or adapter == 'default':
+    shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
+          -q {params.phred_cutoff} {snakemake.input.R1}''')
+    # Are there any  over-represented sequences?
+    # If yes, do a second pass
+    # since no adater was provided
+    histogram = fastq_kmer_histogram(output_1)
+    adapter2 = get_top_kmer(histogram)
+    if adapter2 is None:
+        # Else just copy
+        shell(r'''cp -r {output_1} {output_2}''')
+        shell(r'''echo "No adapter found in second pass" > {output_2_report}''')
+    else:
+        shell(r'''trim_galore -o {pass2_dir} --length {params.min_length} \
+            -a {adapter2} \
+            -q {params.phred_cutoff} {output_1}''')
 
-
-# Are there any  over-represented sequences?
-# If yes, do a second pass
-histogram = fastq_kmer_histogram(output_1)
-adapter = get_top_kmer(histogram)
-if adapter is None:
-    shell(r'''cp -r {output_1} {output_2}''')
-    shell(r'''echo "No adapter found in second pass" > {output_2_report}''')
 else:
-    # Else just copy
-    shell(r'''trim_galore -o {pass2_dir} --length {params.min_length} \
-        -a {adapter} \
-        -q {params.phred_cutoff} {output_1}''')
+    shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
+          -a {adapter} \
+          -q {params.phred_cutoff} {snakemake.input.R1}''')
+    shell(r'''cp -r {output_1} {output_2}''')
+    shell(r'''echo "Used user provided adapter for one pass only (no second pass)" > {output_2_report}''')
+

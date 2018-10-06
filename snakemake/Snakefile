@@ -7,6 +7,7 @@ from os.path import join
 import glob
 from riboraptor.helpers import mkdir_p
 
+ADAPTER = 'default'
 
 include:
     config['config_path']
@@ -59,8 +60,8 @@ def get_multiqc_report_input(wildcards):
 rule all:
     input:
         expand('reports/{sample}_riboraptor_report.html', sample=SRX_SAMPLES),
-        expand('qc_post_trimming/{sample}_trimmed_trimmed_fastqc.zip', sample=ALL_SRR),
-        expand('qc/{sample}_fastqc.zip', sample=SRX_SAMPLES),
+        #expand('qc_post_trimming/{sample}_trimmed_trimmed_fastqc.zip', sample=ALL_SRR),
+        #expand('qc/{sample}_fastqc.zip', sample=SRX_SAMPLES),
         expand('plots/periodicity/{sample}.png', sample=SRX_SAMPLES),
         expand('bigWig_lengthwise_normalized/{sample}/{fragment_length}/{orientation}_{strand}.bw',
                sample=SRX_SAMPLES,
@@ -78,8 +79,11 @@ rule sra_to_fastq:
     input: sra_to_fastq_input
     benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
     output: 'sratofastq/{sample}.fastq.gz'
+    threads: 1
     params:
-        prefix='sratofastq/{sample}.fastq'
+        prefix_sra='sratofastq/{sample}.sra.fastq',
+        prefix='sratofastq/{sample}.fastq',
+        temp_dir='/tmp/{sample}_sratofastq',
     shell:
         r'''
         fastq-dump --split-3 \
@@ -87,6 +91,11 @@ rule sra_to_fastq:
         && gzip {params.prefix}
         '''
 
+#    fasterq-dump --split-3 \
+#    -O sratofastq {input} -t {params.temp_dir}\
+#    -e {threads} \
+#    && mv {params.prefix_sra} {params.prefix} \
+#    && gzip {params.prefix}
 
 rule merge_fastq:
     input:
@@ -147,6 +156,7 @@ rule perform_trimming:
         phred_cutoff = 5,
         min_length = 18, # Discard sequences shorter than this length
         max_length = 38, # Discard sequences longer than this length
+        adapter = ADAPTER
         # --max_length for SmallRNA: Should let to 37?
         # --illumina: For adapter trimming?
     #shell:
@@ -447,10 +457,10 @@ rule featurecounts:
 
 rule multiqc:
     input:
-        fastqc = expand('qc/{sample}_fastqc.html',
-                        sample=SRX_SAMPLES),
-        trimmed = expand('merged_preprocessed/{sample}_trimmed.fq.gz',
-                         sample=SRX_SAMPLES),
+        #fastqc = expand('qc/{sample}_fastqc.html',
+        #                sample=SRX_SAMPLES),
+        #trimmed = expand('merged_preprocessed/{sample}_trimmed.fq.gz',
+        #                 sample=SRX_SAMPLES),
         bams = expand('bams/{sample}.bam',
                       sample=SRX_SAMPLES),
         counts = 'featureCounts/fcounts.tsv',
@@ -460,7 +470,7 @@ rule multiqc:
         mem_mb=10000
     shell:
         r'''
-        multiqc --export -f --outdir multiqc_report qc starlogs featureCounts merged_preprocessed bams
+        multiqc --export -f --outdir multiqc_report starlogs featureCounts bams
         '''
 
 

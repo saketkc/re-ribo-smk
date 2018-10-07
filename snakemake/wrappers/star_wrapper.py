@@ -15,8 +15,7 @@ def total_genome_size(chrom_sizes_file):
 
 
 def get_align_intro_params(intron_bed_file):
-    df = pybedtools.BedTool(
-        intron_bed_file).to_dataframe()
+    df = pybedtools.BedTool(intron_bed_file).to_dataframe()
     lengths = df['end'] - df['start']
 
     ## Based on small genomes. See https://groups.google.com/forum/#!topic/rna-star/hQeHTBbkc0c

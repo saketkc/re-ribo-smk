@@ -47,8 +47,8 @@ fragment_length_pickle:
     mem: '40gb'
 
 merge_bams:
-    cores: 16
-    mem: '80gb'
+    cores: 1
+    mem: '100gb'
 
 pickle_counts_cds:
     cores: 1

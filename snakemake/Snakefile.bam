@@ -32,17 +32,16 @@ def get_multiqc_report_input(wildcards):
 
 rule all:
     input:
-        expand('reports/{sample}_riboraptor_report.html', sample=SAMPLES),
-        #expand('qc_post_trimming/{sample}_trimmed_trimmed_fastqc.zip', sample=ALL_SRR),
-        #expand('qc/{sample}_fastqc.zip', sample=SAMPLES),
+        expand('bams_unique/{sample}.bam', sample=SAMPLES),
+        expand('metagene_coverages/{sample}.tsv', sample=SAMPLES),
         expand('plots/periodicity/{sample}.png', sample=SAMPLES),
         expand('bigWig_lengthwise_normalized/{sample}/{fragment_length}/{orientation}_{strand}.bw',
                sample=SAMPLES,
                fragment_length=FRAGMENT_LENGTHS,
                orientation=ORIENTATIONS,
                strand=STRANDS),
-        expand('bams_unique/{sample}.bam', sample=SAMPLES),
         dynamic('multiqc_report/multiqc_plots/png/{plot}.png'),
+        expand('reports/{sample}_riboraptor_report.html', sample=SAMPLES),
         'featureCounts/fcounts.tsv',
         'multiqc_report/aggregated_report.html',
         'reports/riboraptor_report_summarized.html',

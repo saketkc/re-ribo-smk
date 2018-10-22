@@ -6,6 +6,8 @@ import os
 from os.path import join
 import glob
 from riboraptor.helpers import mkdir_p
+import numpy as np
+import pandas as pd
 
 ADAPTER = 'default'
 
@@ -73,6 +75,45 @@ rule all:
         'featureCounts/fcounts.tsv',
         'multiqc_report/aggregated_report.html',
         'reports/riboraptor_report_summarized.html',
+
+def total_genome_size():
+    df = pd.read_table(CHROM_SIZES, names=['chrom', 'sizes'])
+    total = df['sizes'].sum()
+    return total
+
+
+def get_align_intro_params():
+    df = pd.read_table(INTRON_BED, names=['chrom', 'start', 'end', 'name', 'score', 'strand'])
+    lengths = df['end'] - df['start']
+
+    ## Based on small genomes. See https://groups.google.com/forum/#!topic/rna-star/hQeHTBbkc0c
+    alignintronNmin = max(4, lengths.min())
+    alignintronNmax = lengths.max()
+    return alignintronNmin, alignintronNmax
+
+ALIGN_INTRON_Nmin, ALIGN_INTRON_Nmax = get_align_intro_params()
+TOTAL_GENOME_SIZE = total_genome_size()
+## Small genome optimization
+## See STAR manual 2.2.5
+SA_INDEX_Nbases = int(np.floor(min(14, np.log2(TOTAL_GENOME_SIZE)/2.0-1)))
+
+
+rule create_index:
+    input:
+        fasta=GENOME_FASTA,
+        gtf=GTF
+    output: STAR_INDEX
+    resources:
+        mem_mb=61000
+    threads: 16
+    shell:
+        r'''mkdir -p {output} && STAR --runThreadN {threads}\
+        --runMode genomeGenerate \
+        --genomeDir {output} \
+        --genomeSAindexNbases {SA_INDEX_Nbases} \
+        --genomeFastaFiles {input.fasta}\
+        --sjdbGTFfile {input.gtf}'''
+
 
 
 rule sra_to_fastq:
@@ -188,7 +229,7 @@ rule perform_qc_post_trimming:
 rule map_star:
     input:
         R1 = 'preprocessed/{sample}_trimmed_trimmed.fq.gz',
-        index = STAR_INDEX
+        index = ancient(STAR_INDEX)
     benchmark: 'benchmarks/map_star/{sample}.txt'
     output:
         bam = 'bams_srr/{sample}.bam',

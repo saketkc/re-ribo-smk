@@ -6,6 +6,10 @@ __default__:
     logout: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.out'
     logerror: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.err'
 
+create_index:
+    cores: 16
+    mem: '61GB'
+
 sra_to_fastq:
     cores: 1
     mem: '8gb'

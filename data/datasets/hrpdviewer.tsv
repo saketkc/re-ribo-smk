@@ -1,0 +1,611 @@
+Ribo-seq data name	SRR number	GEO number	Topic	Cell line	Authors	Pubmed ID	Year	SRP
+Footprint mock 32hr runs1-2	SRR057511_12	GSE22004	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint miR-155 32hr runs1-2	SRR057516_17	GSE22004	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint miR-1 32hr runs1-2	SRR057521_22	GSE22004	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint mock 12hr run1	SRR057526	GSE22004	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint miR-155 12hr run1	SRR057529	GSE22004	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint miR-1 12hr run1	SRR057532	GSE22004	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint wild-type runs1-2	SRR065774_75	GSE22001	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprint mir-223-knockout runs1-2	SRR065779_80	GSE22001	microRNA Regulatory Effect	HeLa Cell	Guo et al.	20703300	2010	
+Footprints from cells infected with HCMV for 5hr, pretreated with Harringtonine	SRR592957	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 72hr, pretreated with Harringtonine	SRR592958	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 5hr, pretreated with LTM	SRR592959	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 72hr, pretreated with LTM	SRR592960	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 5hr, no drug pretreatment	SRR592961	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 72hr, no drug pretreatment	SRR592962	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Ribosome profiling of HEK293 cells treated with lactimidomycin, technical replicate #1	SRR618772	SRP014629	Translational Regulation Mechanism	HEK293 Cell	Lee et al.	22927429	2012	
+Ribosome profiling of HEK293 cells treated with cycloheximide, technical replicate #1	SRR618770	SRP014629	Translational Regulation Mechanism	HEK293 Cell	Lee et al.	22927429	2012	
+Ribosome profiling of HEK293 cells treated with cycloheximide, technical replicate #2	SRR618771	SRP014629	Translational Regulation Mechanism	HEK293 Cell	Lee et al.	22927429	2012	
+Footprints from cells infected with HCMV for 72hr, pretreated with cycloheximide, replicate	SRR592956	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Ribosome profiling of HEK293 cells treated with lactimidomycin, technical replicate #2	SRR618773	SRP014629	Translational Regulation Mechanism	HEK293 Cell	Lee et al.	22927429	2012	
+Footprint for vehicle treated PC3 cells, replicate #1.	SRR403883	GSE35469	Cancer Mechanism, mTOR Pathway	PC3 Cell	Hsieh et al.	22367541	2012	
+Footprints from cells infected with HCMV for 5hr, pretreated with cycloheximide	SRR609197	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 24hr, pretreated with cycloheximide	SRR592954	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+Footprints from cells infected with HCMV for 72hr, pretreated with cycloheximide	SRR592955	GSE41605	Virus Infection	Human Foreskin Fibroblast Cell	Stern-Ginossar et al.	23180859	2012	SRP016143
+THP-1 puro rep#2	SRR525277	GSE39561	Translational Regulation Mechanism	THP-1 Cell	Fritsch et al.	22879431	2012	SRP014542
+Footprint for rapamycin treated PC3 cells, replicate #1.	SRR403885	GSE35469	Cancer Mechanism, mTOR Pathway	PC3 Cell	Hsieh et al.	22367541	2012	
+Footprint for PP242 treated PC3 cells, replicate #1.	SRR403887	GSE35469	Cancer Mechanism, mTOR Pathway	PC3 Cell	Hsieh et al.	22367541	2012	
+THP-1 puro rep#3	SRR525278	GSE39561	Translational Regulation Mechanism	THP-1 Cell	Fritsch et al.	22879431	2012	SRP014542
+Footprint for rapamycin treated PC3 cells, replicate #2.	SRR403891	GSE35469	Cancer Mechanism, mTOR Pathway	PC3 Cell	Hsieh et al.	22367541	2012	
+Ribosome profiling of HEK293 cells treated with Harringtonine	SRR964946	SRP014629	Translational Regulation Mechanism	HEK293 Cell	Lee et al.	22927429	2012	
+Footprint for PP242 treated PC3 cells, replicate #2.	SRR403893	GSE35469	Cancer Mechanism, mTOR Pathway	PC3 Cell	Hsieh et al.	22367541	2012	
+HEK293 low	SRR493747	GSE37744	RPF Methodology	HEK293 Cell	Ingolia et al.	22836135	2012	
+Footprint for vehicle treated PC3 cells, replicate #2.	SRR403889	GSE35469	Cancer Mechanism, mTOR Pathway	PC3 Cell	Hsieh et al.	22367541	2012	
+HEK293 high	SRR493749	GSE37744	RPF Methodology	HEK293 Cell	Ingolia et al.	22836135	2012	
+THP-1 cyclo rep#1	SRR525273	GSE39561	Translational Regulation Mechanism	THP-1 Cell	Fritsch et al.	22879431	2012	SRP014542
+THP-1 cyclo rep#2	SRR525274	GSE39561	Translational Regulation Mechanism	THP-1 Cell	Fritsch et al.	22879431	2012	SRP014542
+THP-1 cyclo rep#3	SRR525275	GSE39561	Translational Regulation Mechanism	THP-1 Cell	Fritsch et al.	22879431	2012	SRP014542
+THP-1 puro rep#1	SRR525276	GSE39561	Translational Regulation Mechanism	THP-1 Cell	Fritsch et al.	22879431	2012	SRP014542
+HEK293 medium	SRR493748	GSE37744	RPF Methodology	HEK293 Cell	Ingolia et al.	22836135	2012	
+Ribosome profiling of HEK293 cells treated with PES	SRR619092_93	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with GA	SRR619094_95	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with VER	SRR619090_91	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with DMSO	SRR619088_89	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with AZC and MG132 biological replicate 2	SRR619085	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with AZC only	SRR619086	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with AZC and MG132 biological replicate 1	SRR619084	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells no treatment control biological replicate 2	SRR619083	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells no treatment control biological replicate 1	SRR619082	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HEK293 cells treated with MG132 only	SRR619087	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+Ribosome profiling of FRB*-GFP HEK293 cells no treatment	SRR619096	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+C1.rp	SRR627620	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Ribosome profiling of HeLa-tTA cells NOT expressing K71M	SRR619098	SRP017263	Translational Regulation Mechanism, Stress Condition	HeLa Cell	Liu et al.	23290916	2013	
+BJ RP rep2	SRR935449	GSE48933	Disease, Mitochondrial Translation	BJ Primary Fibroblast Cell	Rooijers et al.	24301020	2013	SRP027514
+Cybrid control RP rep1	SRR935452	GSE48933	Disease, Mitochondrial Translation	Cybrid Cell	Rooijers et al.	24301020	2013	SRP027514
+Cybrid control RP rep2	SRR935453	GSE48933	Disease, Mitochondrial Translation	Cybrid Cell	Rooijers et al.	24301020	2013	SRP027514
+Ribosome profiling rep1-SiControl-RPF C1	SRR944653	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep1-SiControl-input-polyA C2	SRR944654	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep1-SiYTHDF2-RPF C3	SRR944655	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep1-SiYTHDF2-input-polyA C4	SRR944656	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep2-SiControl-input-ribominus C7	SRR944657	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep2-SiControl-input-polyA C6	SRR944658	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep2-SiControl-RPF C5	SRR944659	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep2-SiYTHDF2-input-ribominus C10	SRR944660	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep2-SiYTHDF2-input-polyA C9	SRR944661	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+Ribosome profiling rep2-SiYTHDF2-RPF C8	SRR944662	GSE49339	mRNA Modification	HeLa Cell	Niu et al.	23453015	2013	
+G1-1 synchronized HeLa cells	SRR970490	SRP029589	Cell Cycle	HeLa Cell	Stumpf et al.	24120665	2013	
+G1-2 synchronized HeLa cells	SRR970538	SRP029590	Cell Cycle	HeLa Cell	Stumpf et al.	24120665	2013	
+S-phase-1 HeLa cells	SRR970561	SRP029591	Cell Cycle	HeLa Cell	Stumpf et al.	24120665	2013	
+S-phase-2 HeLa cells	SRR970565	SRP029592	Cell Cycle	HeLa Cell	Stumpf et al.	24120665	2013	
+BJ RP rep1	SRR935448	GSE48933	Disease, Mitochondrial Translation	BJ Primary Fibroblast Cell	Rooijers et al.	24301020	2013	SRP027514
+Ribosome profiling of FRB*-GFP HEK293 cells treated with rapalog	SRR619097	SRP017263	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Liu et al.	23290916	2013	
+12h MM1S 20nM bortezomib ribosome footprint	SRR931825	GSE48785	Stress Condition, Apoptosis	MM1.S Cell	Wiita et al.	24171104	2013	SRP027015
+6h MM1S 20nM bortezomib ribosome footprint	SRR931821	GSE48785	Stress Condition, Apoptosis	MM1.S Cell	Wiita et al.	24171104	2013	SRP027015
+Ribosome profiling of HeLa-tTA cells expressing K71M biological replicate 1	SRR619099	SRP017263	Translational Regulation Mechanism, Stress Condition	HeLa Cell	Liu et al.	23290916	2013	
+Ribosome profiling of HeLa-tTA cells expressing K71M biological replicate 2	SRR619100	SRP017263	Translational Regulation Mechanism, Stress Condition	HeLa Cell	Liu et al.	23290916	2013	
+C2.rp	SRR627621	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Q1.rp	SRR627622	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Q2.rp	SRR627623	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+preS.rp	SRR627624	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+S.rp	SRR627625	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+C3.rp	SRR627626	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Tr.rp	SRR627627	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+C.rp	SRR810100	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Nutlin.2h.rp	SRR810101	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Nutlin.4h.rp	SRR810102	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Nutlin.6h.rp	SRR810103	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+Nutlin.19h.rp	SRR810104	GSE45833	Cancer Mechanism	BJ Primary Fibroblast Cell	Loayza-Puch et al.	23594524	2013	
+0h MM1S untreated ribosome footprint	SRR931815	GSE48785	Stress Condition, Apoptosis	MM1.S Cell	Wiita et al.	24171104	2013	SRP027015
+1.5h MM1S 20nM bortezomib ribosome footprint	SRR931817	GSE48785	Stress Condition, Apoptosis	MM1.S Cell	Wiita et al.	24171104	2013	SRP027015
+3h MM1S 20nM bortezomib ribosome footprint	SRR931819	GSE48785	Stress Condition, Apoptosis	MM1.S Cell	Wiita et al.	24171104	2013	SRP027015
+9h MM1S 20nM bortezomib ribosome footprint	SRR931823	GSE48785	Stress Condition, Apoptosis	MM1.S Cell	Wiita et al.	24171104	2013	SRP027015
+Mitotic-1 HeLa cells	SRR970587	SRP029593	Cell Cycle	HeLa Cell	Stumpf et al.	24120665	2013	
+Mitotic-2 HeLa cells	SRR970588	SRP029594	Cell Cycle	HeLa Cell	Stumpf et al.	24120665	2013	
+wild-type B cell 48 h RPF	SRR1551128_32	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+FP dmso 2hr br	SRR1573937	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+FP silvestrol 2hr br	SRR1573938	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+FP dmso	SRR1573939	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+FP ink128	SRR1573940	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+mock-transfected ribosome profiling	SRR1598971	GSE51584	microRNA Regulatory Effect	U2OS Cell	Guo et al.	25070500	2014	SRP031849
+miR-1-transfected ribosome profiling	SRR1598975	GSE51584	microRNA Regulatory Effect	U2OS Cell	Guo et al.	25070500	2014	SRP031849
+miR-155-transfected ribosome profiling	SRR1598981	GSE51584	microRNA Regulatory Effect	U2OS Cell	Guo et al.	25070500	2014	SRP031849
+FP untreated	SRR1573934	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+wild-type B cell 8 h RPF	SRR1551126_27	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+bound HEK	SRR1536304_05	GSE60095	Translational Regulation Mechanism	HEK293 Cell	Ingolia et al.	25159147	2014	SRP045257
+input HEK	SRR1536302_03	GSE60095	Translational Regulation Mechanism	HEK293 Cell	Ingolia et al.	25159147	2014	SRP045257
+wild-type B cell 4 h RPF	SRR1551124_25	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+Ribosome Profiling with Control siRNA	SRR1042900	GSE52976	Translational Regulation Mechanism	HEK293 Cell	Yoon et al.	25366541	2014	
+Ribosome Profiling with AUF1 siRNA	SRR1042901	GSE52976	Translational Regulation Mechanism	HEK293 Cell	Yoon et al.	25366541	2014	
+Ribosome Profiling with HuR siRNA	SRR1042902	GSE52976	Translational Regulation Mechanism	HEK293 Cell	Yoon et al.	25366541	2014	
+9962X8 c.40 41del RPF	SRR1204655	GSE56148	Disease	Muscle Tissue	Wein et al.	25108525	2014	SRP040550
+wild-type B cell 2 h RPF	SRR1551122_23	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+FP silvestrol 2hr	SRR1573933	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+9962X9 normal RPF	SRR1204656	GSE56148	Disease	Muscle Tissue	Wein et al.	25108525	2014	SRP040550
+FP dmso 2hr	SRR1573931	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+FP silvestrol 1hr	SRR1573932	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+miR-155 knockout B cell 2h RPF	SRR1551140_41	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+miR-155 knockout B cell 4h RPF	SRR1551142_43	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+miR-155 knockout B cell 8h RPF	SRR1551144_45	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+miR-155 knockout B cell 48h RPF	SRR1551146_51	GSE60426	microRNA Regulatory Effect	B Cell	Eichhorn et al.	25263593	2014	
+mock-transfected U2OS RPF	SRR1551155	GSE60426	microRNA Regulatory Effect	U2OS Cell	Eichhorn et al.	25263593	2014	
+miR-155-transfected U2OS RPF	SRR1551163	GSE60426	microRNA Regulatory Effect	U2OS Cell	Eichhorn et al.	25263593	2014	
+mock-transfected HEK293T RPF	SRR1551165	GSE60426	microRNA Regulatory Effect	HEK293 Cell	Eichhorn et al.	25263593	2014	
+miR-1-transfected HEK293T RPF	SRR1551167	GSE60426	microRNA Regulatory Effect	HEK293 Cell	Eichhorn et al.	25263593	2014	
+miR-1-transfected U2OS RPF	SRR1551159	GSE60426	microRNA Regulatory Effect	U2OS Cell	Eichhorn et al.	25263593	2014	
+TumorHumanRiboProfilingB	SRR1562543	GSE51424	Translational Regulation Mechanism	Mouse Brain Tissue	Gonzalez et al.	25122893	2014	
+TumorHumanRiboProfilingA	SRR1562542	GSE51424	Translational Regulation Mechanism	Mouse Brain Tissue	Gonzalez et al.	25122893	2014	
+NormalHumanRiboProfilingC	SRR1562541	GSE51424	Translational Regulation Mechanism	Mouse Brain Tissue	Gonzalez et al.	25122893	2014	
+BirAmCherrySec61beta +CHX 10minBiotin pulldown	SRR1562930	GSE61012	Translational Regulation Mechanism	HEK293 Cell	Jan et al.	25378630	2014	SRP046016
+NormalHumanRiboProfilingB	SRR1562540	GSE51424	Translational Regulation Mechanism	Mouse Brain Tissue	Gonzalez et al.	25122893	2014	
+NormalHumanRiboProfilingA	SRR1562539	GSE51424	Translational Regulation Mechanism	Mouse Brain Tissue	Gonzalez et al.	25122893	2014	
+FP dmso 1hr	SRR1573930	GSE61375	Translational Regulation Mechanism	MDA-MB-231 Cell	Rubio et al.	25273840	2014	
+BirAmCherrySec61beta +CHX 10minBiotin input	SRR1562929	GSE61012	Translational Regulation Mechanism	HEK293 Cell	Jan et al.	25378630	2014	SRP046016
+Myc.rp.rep2.lane2	SRR1916547	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+Ribosome footprints from G1 cells, pretreated with cycloheximide 2	SRR1976444	GSE67902	Cell Cycle	RPE-1 Cell	Tanenbaum et al.	26305499	2015	SRP057253
+Ribosome footprints from G1 cells, pretreated with cycloheximide 1	SRR1976443	GSE67902	Cell Cycle	RPE-1 Cell	Tanenbaum et al.	26305499	2015	SRP057253
+GM19239 Rep2	SRR1803189	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19240 Rep1	SRR1803190	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+Myc.Torin.rp.lane2	SRR1916551	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+GM19240 Rep2	SRR1803191	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+Myc.Torin.rp.lane1	SRR1916550	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+Torin.rp.lane1	SRR1916548	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+Torin.rp.lane2	SRR1916549	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+GM18526 Rep2	SRR1803193	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18526 Rep3	SRR1803194	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19239 Rep1	SRR1803188	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+C.rp.rep1	SRR1916542	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+Myc.rp.rep1	SRR1916543	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+C.rp.rep2.lane2	SRR1916545	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+Myc.rp.rep2.lane1	SRR1916546	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+GM19240 Rep3	SRR1803192	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18507 Rep1	SRR1803195	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18523 Rep1	SRR1803168	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18522 Rep2	SRR1803167	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18523 Rep3	SRR1803169	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18526 Rep1	SRR1803170	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18870 Rep2	SRR1803171	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18951 Rep1	SRR1803172	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18951 Rep2	SRR1803173	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18951 Rep3	SRR1803174	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19098 Rep1	SRR1803175	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19098 Rep2	SRR1803176	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18522 Rep1	SRR1803166	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19238 Rep3	SRR1803187	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19099 Rep1	SRR1803177	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19137 Rep2	SRR1803179	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19138 Rep1	SRR1803180	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19138 Rep2	SRR1803181	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19139 Rep2	SRR1803182	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19193 Rep1	SRR1803183	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+Ribosome footprints from G2 cells, pretreated with cycloheximide 1	SRR1976445	GSE67902	Cell Cycle	RPE-1 Cell	Tanenbaum et al.	26305499	2015	SRP057253
+GM19200 Rep2	SRR1803184	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19201 Rep1	SRR1803185	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19238 Rep1	SRR1803186	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM19137 Rep1	SRR1803178	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+Ribosome footprints from G2 cells, pretreated with cycloheximide 2	SRR1976446	GSE67902	Cell Cycle	RPE-1 Cell	Tanenbaum et al.	26305499	2015	SRP057253
+Bmal1 kd ribo profile CT10 rep2	SRR1257266	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Ribosome footprints from M cells, pretreated with cycloheximide 2	SRR1976448	GSE67902	Cell Cycle	RPE-1 Cell	Tanenbaum et al.	26305499	2015	SRP057253
+footprints uninfected fibroblasts	SRR2064017	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+footprints uninfected fibroblasts treated with type 1 interferon	SRR2064018	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+footprints fibroblasts infected with irradiated virus	SRR2064019	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+footprints fibroblasts infected for 5hr	SRR2064020	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+footprints fibroblasts infected for 12hr	SRR2064021	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+footprints fibroblasts infected for 24hr	SRR2064022	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+footprints fibroblasts infected for 72hr	SRR2064023	GSE69906	Virus Infection	Fibroblast Cell	Tirosh et al.	26599541	2015	
+Ribosome profiling SiControl-RPF	SRR2075417	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+RP 8 h p.i. - Rep 2	SRR1535549_51	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+Ribosome profiling SiControl-input-poly(A)	SRR2075418	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+Ribosome profiling SiMETTL3-input-poly(A)	SRR2075420	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+ribo hES shControl-replicate1	SRR2086025	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo hES shControl-replicate2	SRR2086026	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo hES shKBTBD8	SRR2086027	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo hES shTCOF1	SRR2086028	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND3 shControl	SRR2086029	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND3 shKBTBD8	SRR2086030	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND3 shTCOF1	SRR2086031	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+Ribosome profiling SiMETTL3-RPF	SRR2075419	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+RP 4 h p.i. - Rep 2	SRR1535543_45	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+RP 1 h p.i. - Rep 2	SRR1535537_39	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+RP mock - Rep 2	SRR1535534_36	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+lympho-directExtract	SRR1979671	GSE68008	RPF Methodology	Lymphocytes	Reid et al.	26164698	2015	SRP057384
+lympho-pelleted	SRR1979672	GSE68008	RPF Methodology	Lymphocytes	Reid et al.	26164698	2015	SRP057384
+Bmal1 kd ribo profile CT02 rep2	SRR1257262	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT04 rep2	SRR1257263	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT06 rep2	SRR1257264	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT08 rep2	SRR1257265	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT12 rep2	SRR1257267	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT14 rep2	SRR1257268	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT16 rep2	SRR1257269	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT18 rep2	SRR1257270	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT20 rep2	SRR1257271	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT22 rep2	SRR1257272	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Cycloheximide treated HCT116	SRR1333393	GSE58207	RPF Methodology, Translational Regulation Mechanism	HCT116 Cell	Crappe et al.	25510491	2015	
+Lactimidomycin treated HCT116	SRR1333394	GSE58207	RPF Methodology, Translational Regulation Mechanism	HCT116 Cell	Crappe et al.	25510491	2015	
+RP mock - Rep 1	SRR1535516_18	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+GM18519 Rep1	SRR1803165	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+RP 2 h p.i. - Rep 1	SRR1535522_24	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+RP 4 h p.i. - Rep 1	SRR1535525_27	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+RP 8 h p.i. - Rep 1	SRR1535531_33	GSE60040	Virus Infection	Human Foreskin Fibroblast Cell	Rutkowski et al.	25989971	2015	
+Ribosome footprints from M cells, pretreated with cycloheximide 1	SRR1976447	GSE67902	Cell Cycle	RPE-1 Cell	Tanenbaum et al.	26305499	2015	SRP057253
+GM18511 Rep1	SRR1803164	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+C.rp.rep2.lane1	SRR1916544	GSE66927	Cancer Mechanism	U2OS Cell	Elkon et al.	26538417	2015	SRP056200
+GM18504 Rep3	SRR1803162	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+ribo hES shKBTBD8 replicate2	SRR1610256	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND6 shKBTBD8 replicate1	SRR1610251	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND6 shControl replicate2	SRR1610255	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo hES shControl replicate2	SRR1610252	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND1 shControl replicate2	SRR1610253	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND3 shControl replicate2	SRR1610254	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+WT ribo profile CT02 rep1	SRR1257226	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT04 rep1	SRR1257227	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT06 rep1	SRR1257228	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT08 rep1	SRR1257229	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT10 rep1	SRR1257230	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT12 rep1	SRR1257231	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT14 rep1	SRR1257232	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT16 rep1	SRR1257233	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT18 rep1	SRR1257234	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT20 rep1	SRR1257235	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+ribo ND1 shControl replicate1	SRR1610245	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo untr b	SRR1795427_28	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+ribo isrib a	SRR1795429_30	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+ribo ND1 shKBTBD8 replicate2	SRR1610257	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND3 shKBTBD8 replicate2	SRR1610258	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND6 shKBTBD8 replicate2	SRR1610259	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+WT ribo profile CT00 rep1	SRR1257225	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+ribo ND3 shControl replicate1	SRR1610246	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND6 shControl replicate1	SRR1610247	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo hES shKBTBD8 replicate1	SRR1610248	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+ribo ND1 shKBTBD8 replicate1	SRR1610249	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+GM18505 Rep1	SRR1803163	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+ribo ND3 shKBTBD8 replicate1	SRR1610250	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+Ribosome profiling rep1-SiControl-input-ribominus	SRR1661492	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+Ribosome profiling rep1-SiYTHDF1 1-RPF	SRR1661493	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+Ribosome profiling rep1-SiYTHDF1 1-input-ribominus	SRR1661494	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+ribo isrib b	SRR1795431_32	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+Ribosome profiling rep2-SiControl-RPF	SRR1661495	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+Ribosome profiling rep2-SiYTHDF1 8-RPF	SRR1661497	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+Ribosome profiling rep2-SiYTHDF1 8-input-ribominus	SRR1661498	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+Ribosome profiling rep1-SiControl-RPF	SRR1661491	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+WT control NCCIT Ribosome profiling (RPF)	SRR1660332_35	GSE63570	Virus Infection	Embryos and Pluripotent Cell	Grow et al.	25896322	2015	
+Rec-OE NCCIT Ribosome profiling (RPF)	SRR1660328_31	GSE63570	Virus Infection	Embryos and Pluripotent Cell	Grow et al.	25896322	2015	
+Control riboseq, replicate 2	SRR11739_09_10	GSE55195	Stress Condition	HEK293 Cell	Andreev et al.	25621764	2015	
+Arsenite riboseq, replicate 2	SRR11739_13_14	GSE55195	Stress Condition	HEK293 Cell	Andreev et al.	25621764	2015	
+Control riboseq, replicate 1	SRR1173905	GSE55195	Stress Condition	HEK293 Cell	Andreev et al.	25621764	2015	
+Arsenite riboseq, replicate 1	SRR1173907	GSE55195	Stress Condition	HEK293 Cell	Andreev et al.	25621764	2015	
+Ribosome profiling rep2-SiControl-input-ribominus	SRR1661496	GSE63591	mRNA Modification	HeLa Cell	Wang et al.	26046440	2015	SRP050213
+ribo tm a	SRR1795433_34	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+ribo untr a	SRR1795425_26	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+ribo tmisrib a	SRR1795437_38	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+Bmal1 kd ribo profile CT16 rep1	SRR1257257	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+ribo tm b	SRR1795435_36	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+Bmal1 kd ribo profile CT20 rep1	SRR1257259	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT22 rep1	SRR1257260	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT00 rep2	SRR1257261	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+GM10847 Rep1	SRR1803146	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12878 Rep1	SRR1803147	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12878 Rep2	SRR1803148	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12890 Rep1	SRR1803149	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12890 Rep2	SRR1803150	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12891 Rep1	SRR1803151	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12891 Rep2	SRR1803152	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12892 Rep1	SRR1803153	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM12892 Rep2	SRR1803154	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18489 Rep1	SRR1803155	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18499 Rep1	SRR1803156	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18499 Rep2	SRR1803157	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18501 Rep1	SRR1803158	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18501 Rep2	SRR1803159	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18502 Rep1	SRR1803160	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+GM18504 Rep2	SRR1803161	GSE65912	Translational Regulation Mechanism	Lymphoblastoid Cell	Cenik et al.	26297486	2015	SRP055009
+Bmal1 kd ribo profile CT14 rep1	SRR1257256	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT12 rep1	SRR1257255	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT18 rep1	SRR1257258	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT08 rep1	SRR1257253	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+ribo tmisrib b	SRR1795439_40	GSE65778	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Sidrauski et al.	25719440	2015	
+WT ribo profile CT22 rep1	SRR1257236	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT00 rep2	SRR1257237	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT02 rep2	SRR1257238	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT04 rep2	SRR1257239	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT06 rep2	SRR1257240	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT08 rep2	SRR1257241	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT10 rep2	SRR1257242	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT12 rep2	SRR1257243	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT14 rep2	SRR1257244	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT16 rep2	SRR1257245	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT10 rep1	SRR1257254	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+ribo hES shControl replicate1	SRR1610244	GSE62247	Protein Stability	Embryonic Stem Cell	Werner et al.	26399832	2015	
+WT ribo profile CT22 rep2	SRR1257248	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT18 rep2	SRR1257246	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT06 rep1	SRR1257252	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT04 rep1	SRR1257251	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+WT ribo profile CT20 rep2	SRR1257247	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT02 rep1	SRR1257250	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Bmal1 kd ribo profile CT00 rep1	SRR1257249	GSE56924	Circadian Rhythms	U2OS Cell	Jang et al.	26338483	2015	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 16) treated with Rapamycin, Biological Replicate 1	SRR3208901	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 16) treated with Rapamycin, Biological Replicate 2	SRR3208902	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 19) treated with AZD-8055, Biological Replicate 1	SRR3208905	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 16) treated with AZD-8055, Biological Replicate 1	SRR3208893	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 16) treated with DMSO, Biological Replicate 2	SRR3208898	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 16) treated with DMSO, Biological Replicate 1	SRR3208897	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 19) treated with AZD-8055, Biological Replicate 2	SRR3208906	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 15) treated with DMSO, Biological Replicate 2	SRR3208886	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 15) treated with Rapamycin, Biological Replicate 1	SRR3208889	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 16) treated with AZD-8055, Biological Replicate 2	SRR3208894	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 15) treated with Rapamycin, Biological Replicate 2	SRR3208890	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+SUM159PT in vivo 1 repl2 RP	SRR2873701_02	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 15) treated with AZD-8055, Biological Replicate 2	SRR3208882	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+MCF7 IP150 RP	SRR2873688	GSE74511	RPF Methodology	MCF7 Cell	Loayza-Puch et al.	26878238	2016	
+SUM159PT in vitro 1 repl1 RP	SRR2873689_90	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+SUM159PT in vitro 2 repl1 RP	SRR2873691_92	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+SUM159PT in vivo 1 repl1 RP	SRR2873693_94	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+SUM159PT in vivo 2 repl1 RP	SRR2873695_96	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+SUM159PT in vitro 1 repl2 RP	SRR2873697_98	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+SUM159PT in vitro 2 repl2 RP	SRR2873699_700	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 19) treated with DMSO, Biological Replicate 1	SRR3208909	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+SUM159PT in vivo 2 repl2 RP	SRR2873703_04	GSE74512	Translational Regulation Mechanism	SUM159PT Cell	Loayza-Puch et al.	26878238	2016	
+Kidney normal tissue tumor 3 RP	SRR2874123_24	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue tumor 3 RP	SRR2874125_26	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney normal tissue tumor 4 RP	SRR2874127_28	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+MCF10A starvation RP	SRR2874255_56	GSE59816	Stress Condition	MCF10A Cell	Loayza-Puch et al.	26878238	2016	
+GM19204 ribosome protected fragments	SRR2954800	GSE75290	Translational Regulation Mechanism, RPF Methodology	Lymphoblastoid Cell	Raj et al.	27232982	2016	SRP066598
+GM19238 ribosome protected fragments	SRR2954801	GSE75290	Translational Regulation Mechanism, RPF Methodology	Lymphoblastoid Cell	Raj et al.	27232982	2016	SRP066598
+D2DJAACXX 1	SRR2991181	GSE75947	RPF Methodology	SH-SY5Y Cell	Chun et al.	27884106	2016	SRP067300
+Ribosome protected fragments (RPF) of TSC2+/+ control generated from hESC cell line 2, Biological Replicate 1	SRR3208864	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ control generated from hESC cell line 2, Biological Replicate 2	SRR3208865	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/- cell line generated from hESC cell line 2, Biological Replicate 1	SRR3208866	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/- cell line generated from hESC cell line 2, Biological Replicate 2	SRR3208867	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cell line generated from hESC cell line 2, Biological Replicate 1	SRR3208868	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cell line generated from hESC cell line 2, Biological Replicate 2	SRR3208869	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ control generated from hESC cell line 3, Biological Replicate 1	SRR3208870	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ control generated from hESC cell line 3, Biological Replicate 2	SRR3208871	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/- cell line generated from hESC cell line 3, Biological Replicate 1	SRR3208872	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/- cell line generated from hESC cell line 3, Biological Replicate 2	SRR3208873	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cell line generated from hESC cell line 3, Biological Replicate 1	SRR3208874	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cell line generated from hESC cell line 3, Biological Replicate 2	SRR3208875	GSE78959	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 15) treated with AZD-8055, Biological Replicate 1	SRR3208881	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2+/+ cells (number 15) treated with DMSO, Biological Replicate 1	SRR3208885	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 19) treated with DMSO, Biological Replicate 2	SRR3208910	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+fp chx 8hr s4	SRR3623939	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 19) treated with Rapamycin, Biological Replicate 2	SRR3208914	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+fp chx 4hr s4	SRR3623938	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+fp harr 8hr s2	SRR3632670	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+Primary PLT Ribo Rest	SRR4045263	GSE85864	Translational Regulation Mechanism	Human Platelets	Mills et al.	27681415	2016	SRP082436
+Primary PLT Ribo Thr1	SRR4045264	GSE85864	Translational Regulation Mechanism	Human Platelets	Mills et al.	27681415	2016	SRP082436
+Primary PLT Ribo Thr2	SRR4045265	GSE85864	Translational Regulation Mechanism	Human Platelets	Mills et al.	27681415	2016	SRP082436
+Retic Ribo Gold rep1	SRR4045266	GSE85864	Translational Regulation Mechanism	Primary Human Reticulocytes	Mills et al.	27681415	2016	SRP082436
+Retic Ribo Gold rep2	SRR4045267	GSE85864	Translational Regulation Mechanism	Primary Human Reticulocytes	Mills et al.	27681415	2016	SRP082436
+Retic Ribo Globin rep1	SRR4045268	GSE85864	Translational Regulation Mechanism	Primary Human Reticulocytes	Mills et al.	27681415	2016	SRP082436
+Retic Ribo Globin rep2	SRR4045269	GSE85864	Translational Regulation Mechanism	Primary Human Reticulocytes	Mills et al.	27681415	2016	SRP082436
+Meg01 Ribo	SRR4045276	GSE85864	Translational Regulation Mechanism	Primary Human Reticulocytes	Mills et al.	27681415	2016	SRP082436
+PLP Ribo	SRR4045277	GSE85864	Translational Regulation Mechanism	Platelet-like Particles	Mills et al.	27681415	2016	SRP082436
+PLP highsalt Ribo	SRR4045278	GSE85864	Translational Regulation Mechanism	Platelet-like Particles	Mills et al.	27681415	2016	SRP082436
+Kidney tumor tissue 4 RP	SRR1528696_97	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue 3 RP	SRR1528694_95	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue 2 RP	SRR1528692_93	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue 1 RP	SRR1528690_91	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney normal tissue 2 RP	SRR1528688_89	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney normal tissue 1 RP	SRR1528686_87	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+MCF10A control RP	SRR1528632_33	GSE59816	Cancer Mechanism, Stress Condition	MCF10A Cell	Loayza-Puch et al.	26878238	2016	
+SUM1315 harringtonine RP	SRR1528631	GSE59815	Cancer Mechanism, Stress Condition	SUM1315 Cell	Loayza-Puch et al.	26878238	2016	
+SUM1315 control RP	SRR1528630	GSE59815	Cancer Mechanism, Stress Condition	SUM1315 Cell	Loayza-Puch et al.	26878238	2016	
+G325E Ribo-seq	SRR1507058	GSE59095	Translational Regulation Mechanism, Cancer Mechanism	Medulloblastoma Cell|HEK293 Cell	Valentin-Vega et al.	27180681	2016	SRP044064
+WT DDX3X Ribo-seq	SRR1507057	GSE59095	Translational Regulation Mechanism, Cancer Mechanism	Medulloblastoma Cell|HEK293 Cell	Valentin-Vega et al.	27180681	2016	SRP044064
+vector control Ribo-seq	SRR1507056	GSE59095	Translational Regulation Mechanism, Cancer Mechanism	Medulloblastoma Cell|HEK293 Cell	Valentin-Vega et al.	27180681	2016	SRP044064
+MCF7 IP50 RP	SRR2873687	GSE74511	RPF Methodology	MCF7 Cell	Loayza-Puch et al.	26878238	2016	
+fp chx 2hr s4	SRR3623937	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 19) treated with Rapamycin, Biological Replicate 1	SRR3208913	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+fp chx uninf s4	SRR3623936	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+fp chx 4hr s3	SRR3623934	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 20) treated with AZD-8055, Biological Replicate 1	SRR3208917	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 20) treated with AZD-8055, Biological Replicate 2	SRR3208918	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 20) treated with DMSO, Biological Replicate 1	SRR3208921	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 20) treated with DMSO, Biological Replicate 2	SRR3208922	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 20) treated with Rapamycin, Biological Replicate 1	SRR3208925	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+Ribosome protected fragments (RPF) of TSC2-/- cells (number 20) treated with Rapamycin, Biological Replicate 2	SRR3208926	GSE78960	mTOR Pathway, Disease	ESC Cell	Costa et al.	27052171	2016	
+S phase ribosome profiling replicate 1	SRR3306583	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+S phase ribosome profiling replicate 2	SRR3306584	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+M phase ribosome profiling replicate 1	SRR3306585	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+M phase ribosome profiling replicate 2	SRR3306586	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+M phase ribosome profiling synchronized by shake off	SRR3306587	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+Asynchronous cell ribosome profiling 1	SRR3306588	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+Asynchronous cell ribosome profiling 2	SRR3306589	GSE79664	Cell Cycle, Translational Regulation Mechanism	HeLa Cell	Park et al.	27153541	2016	SRP072459
+Ribo-Seq (HEK293 cells)	SRR3356523	GSE80156	RPF Methodology, Translational Regulation Mechanism	HEK293 Cell	Saikia et al.	27613579	2016	
+Ribo-Seq (MEF cells)	SRR3356524	GSE80156	RPF Methodology, Translational Regulation Mechanism	MEF Cell	Saikia et al.	27613579	2016	
+Ribo-Seq (MEF cells, WT 18S rRNA)	SRR3356525	GSE80156	RPF Methodology, Translational Regulation Mechanism	MEF Cell	Saikia et al.	27613579	2016	
+Ribo-Seq (MEF cells, mutant 18S rRNA)	SRR3356526	GSE80156	RPF Methodology, Translational Regulation Mechanism	MEF Cell	Saikia et al.	27613579	2016	
+Ribo-Seq (HEK393T, control sample for Methionine Starvation)	SRR3356527	GSE80156	RPF Methodology, Translational Regulation Mechanism	HEK293 Cell	Saikia et al.	27613579	2016	
+Ribo-Seq (HEK393T, Methionine Starvation)	SRR3356528	GSE80156	RPF Methodology, Translational Regulation Mechanism	HEK293 Cell	Saikia et al.	27613579	2016	
+mRNA-assocaited with monosome in the control cells	SRR3510616	GSE81469	Translational Regulation Mechanism	MCF7 Cell	Bai et al.	27477389	2016	SRP075211
+mRNA-assocatied with polyosme in the control cells	SRR3510617	GSE81469	Translational Regulation Mechanism	MCF7 Cell	Bai et al.	27477389	2016	SRP075211
+mRNA-associated with monosome in hCINAP overexpressed cells	SRR3510618	GSE81469	Translational Regulation Mechanism	MCF7 Cell	Bai et al.	27477389	2016	SRP075211
+mRNA-associated with polysome in hCINAP overexpressed cells	SRR3510619	GSE81469	Translational Regulation Mechanism	MCF7 Cell	Bai et al.	27477389	2016	SRP075211
+fp chx uninf s3	SRR3623932	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+fp chx 2hr s3	SRR3623933	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+fp chx 8hr s3	SRR3623935	GSE82232	Virus Infection	A549 Cell	Bercovich-Kinori et al.	27525483	2016	SRP076102
+MCF7 SG RP	SRR2873686	GSE74511	RPF Methodology	MCF7 Cell	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue 3 tumor 2 RP	SRR2064434	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+PC3 ASNase 1 batch2 RP	SRR2873536_37	GSE74510	Stress Condition	PC3 Cell	Loayza-Puch et al.	26878238	2016	
+12 mut l-leucine rep3 RPF	SRR1758413	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+11 mut d-leucine rep3 RPF	SRR1758412	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+10 mut l-leucine rep3 RPF	SRR1758411	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+9 mut d-leucine rep3 RPF	SRR1758410	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+8 corr l-leucine rep3 RPF	SRR1758409	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+7 corr d-leucine rep3 RPF	SRR1758408	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+6 corr l-leucine rep3 RPF	SRR1758407	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+5 corr d-leucine rep3 RPF	SRR1758406	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+12 mut l-leucine rep2 RPF	SRR1758397	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+11 mut d-leucine rep2 RPF	SRR1758396	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+ERSrcTAM00hr chx rep1	SRR1802129	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+10 mut l-leucine rep2 RPF	SRR1758395	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+8 corr l-leucine rep2 RPF	SRR1758393	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+7 corr d-leucine rep2 RPF	SRR1758392	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+6 corr l-leucine rep2 RPF	SRR1758391	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+5 corr d-leucine rep2 RPF	SRR1758390	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+6 corr l-leucine rep1 RPF	SRR1758381	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+5 corr d-leucine rep1 RPF	SRR1758380	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+2 wt l-leucine rep1 RPF	SRR1758379	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+1 wt d-leucine rep1 RPF	SRR1758378	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+Kidney normal tissue 1 tumor 2 RP	SRR2064430	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney normal tissue 2 tumor 2 RP	SRR2064431	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+9 mut d-leucine rep2 RPF	SRR1758394	GSE64962	Disease, mTOR Pathway	RBS Cell	Xu et al.	26729373	2016	SRP052229
+ERSrcTAM01hr chx rep1	SRR1802130	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM04hr chx rep1	SRR1802131	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM24hr chx rep1	SRR1802132	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ELR harr rep2	SRR1802157	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EL harr rep2	SRR1802156	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EH harr rep2	SRR1802155	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+ELR chx rep2	SRR1802154	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EL chx rep2	SRR1802153	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EH chx rep2	SRR1802152	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+ELR harr rep1	SRR1802151	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+PC3 ASNase 2 batch2 RP	SRR2873538_39	GSE74510	Stress Condition	PC3 Cell	Loayza-Puch et al.	26878238	2016	
+EL harr rep1	SRR1802150	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EH harr rep1	SRR1802149	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+ELR chx rep1	SRR1802148	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EL chx rep1	SRR1802147	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+EH chx rep1	SRR1802146	GSE65885	Cancer Mechanism	Fibroblast Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM24hr chx rep2	SRR1802142	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM04hr chx rep2	SRR1802141	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM01hr chx rep2	SRR1802140	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcEtOH24hr chx rep2	SRR1802139	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcEtOH04hr chx rep2	SRR1802138	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcEtOH01hr chx rep2	SRR1802137	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM24hr harr rep1	SRR1802136	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM04hr harr rep1	SRR1802135	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM01hr harr rep1	SRR1802134	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+ERSrcTAM00hr harr rep1	SRR1802133	GSE65885	Cancer Mechanism	MCF10A Cell	Ji et al.	26900662	2016	SRP054971
+Kidney tumor tissue 2 tumor 2 RP	SRR2064433	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue 4 tumor 2 RP	SRR2064435	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+Kidney tumor tissue 1 tumor 2 RP	SRR2064432	GSE59820	Cancer Mechanism	Tumor Tissue	Loayza-Puch et al.	26878238	2016	
+T47D control batch7 RP	SRR2064450	GSE69923	Stress Condition, Cancer Mechanism	T47D Cell	Loayza-Puch et al.	26878238	2016	
+MCF7 control batch7 RP	SRR2064449	GSE69923	Stress Condition, Cancer Mechanism	MCF7 Cell	Loayza-Puch et al.	26878238	2016	
+DDX3 WT ribosome profiling with sodium arsenite rep2	SRR2096974	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+DDX3 R534H ribosome profiling with sodium arsenite rep2	SRR2096975	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+CHL-1 + CRISPR	SRR2146889	GSE71763	Stress Condition	CHL-1 Cell	Siprashvili et al.	26595770	2016	SRP062074
+CHL-1 + CRISPR rRNA removed	SRR2146890	GSE71763	Stress Condition	CHL-1 Cell	Siprashvili et al.	26595770	2016	SRP062074
+CHL-1 untreated	SRR2146891	GSE71763	Stress Condition	CHL-1 Cell	Siprashvili et al.	26595770	2016	SRP062074
+CHL-1 untreated - rRNA removed	SRR2146892	GSE71763	Stress Condition	CHL-1 Cell	Siprashvili et al.	26595770	2016	SRP062074
+10mM AZC + MG132	SRR2146893	GSE71763	Stress Condition	CHL-1 Cell	Siprashvili et al.	26595770	2016	SRP062074
+10mM AZC + MG132 - rRNA removed	SRR2146894	GSE71763	Stress Condition	CHL-1 Cell	Siprashvili et al.	26595770	2016	SRP062074
+ribosome profiling	SRR2433794	GSE73136	RPF Methodology	HEK293 Cell	Calviello et al.	26657557	2016	SRP063852
+M Ribo-Seq Exp1 Rep1	SRR2536838	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+M Ribo-Seq Exp1 Rep2	SRR2536839	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+M Ribo-Seq Exp1 Rep3	SRR2536840_41	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+M Ribo-Seq Exp2 Rep1	SRR2536842_46	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+G1 Ribo-Seq Exp1 Rep1	SRR2536856	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+G1 Ribo-Seq Exp1 Rep2	SRR2536857	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+G1 Ribo-Seq Exp1 Rep3	SRR2536858_62	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+G1 Ribo-Seq Exp2 Rep1	SRR2536863_67	GSE73565	Cell Cycle	HeLa Cell	Zur et al.	26898226	2016	SRP064313
+Lactimidomycin treated Jurkat cells	SRR2732970	GSE74279	Protein Stability	Jurkat T-lymphocytes	Gawron et al.	26893308	2016	SRP065022
+Cycloheximide treated Jurkat cells	SRR2733100	GSE74279	Protein Stability	Jurkat T-lymphocytes	Gawron et al.	26893308	2016	SRP065022
+PC3 control batch1 RP	SRR2873530_31	GSE74510	Stress Condition	PC3 Cell	Loayza-Puch et al.	26878238	2016	
+PC3 ASNase batch1 RP	SRR2873532_33	GSE74510	Stress Condition	PC3 Cell	Loayza-Puch et al.	26878238	2016	
+PC3 control batch2 RP	SRR2873534_35	GSE74510	Stress Condition	PC3 Cell	Loayza-Puch et al.	26878238	2016	
+DDX3 R534H ribosome profiling rep2	SRR2096972	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+DDX3 WT ribosome profiling rep2	SRR2096971	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+Rluc control ribosome profiling with sodium arsenite rep2	SRR2096973	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+DDX3 R534H ribosome profiling with sodium arsenite rep1	SRR2096969	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+MDAMB231 control batch7 RP	SRR2064451	GSE69923	Stress Condition, Cancer Mechanism	MDA-MB-231 Cell	Loayza-Puch et al.	26878238	2016	
+Hs578t control batch7 RP	SRR2064452	GSE69923	Stress Condition, Cancer Mechanism	Hs578T Cell	Loayza-Puch et al.	26878238	2016	
+MCF7 Glutamine starvation batch7 RP	SRR2064453	GSE69923	Stress Condition, Cancer Mechanism	MCF7 Cell	Loayza-Puch et al.	26878238	2016	
+T47D Glutamine starvation batch7 RP	SRR2064454	GSE69923	Stress Condition, Cancer Mechanism	T47D Cell	Loayza-Puch et al.	26878238	2016	
+MDAMB231 Glutamine starvation batch7 RP	SRR2064455	GSE69923	Stress Condition, Cancer Mechanism	MDA-MB-231 Cell	Loayza-Puch et al.	26878238	2016	
+Hs578t Glutamine starvation batch7 RP	SRR2064456	GSE69923	Stress Condition, Cancer Mechanism	Hs578T Cell	Loayza-Puch et al.	26878238	2016	
+MCF10A torin RP	SRR2064566_67	GSE59816	Cancer Mechanism, Stress Condition	MCF10A Cell	Loayza-Puch et al.	26878238	2016	
+ribo DMSO replicate1 [Sample 1]	SRR2075925	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+Rluc control ribosome profiling rep2	SRR2096970	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+ribo RocA003 [Sample 3]	SRR2075927	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+ribo RocA03 [Sample 4]	SRR2075928	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+ribo DMSO replicate2 [Sample 2]	SRR2075926	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+ribo PP242 [Sample 11]	SRR2075935	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+DDX3 WT ribosome profiling with sodium arsenite rep1	SRR2096968	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+ribo RocA3 [Sample 5]	SRR2075929	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+DDX3 R534H ribosome profiling rep1	SRR2096966	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+DDX3 WT ribosome profiling rep1	SRR2096965	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+Rluc control ribosome profiling with sodium arsenite rep1	SRR2096967	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+ribo Hipp1 [Sample 15]	SRR2075939	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+ribo Hipp001 [Sample 14]	SRR2075938	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+ribo DMSO replicate4 [Sample 13]	SRR2075937	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+ribo DMSO replicate3 [Sample 12]	SRR2075936	GSE70211	Translational Regulation Mechanism	HEK293 Cell	Iwasaki et al.	27309803	2016	SRP059825
+Rluc control ribosome profiling rep1	SRR2096964	GSE70802	Translational Regulation Mechanism, Stress Condition	HEK293 Cell	Oh et al.	27058758	2016	
+Ribosome profiling of control HCT116 cells treated with cycloheximide	SRR4293696	GSE87328	Translational Regulation Mechanism	HCT116 Cell	et al.	28541577	2017	
+METTL21B-2	SRR5144788	GSE93133	Translational Regulation Mechanism	HAP1 Cell	Malecki et al.	28108655	2017	SRP096025
+METTL21B-1	SRR5144787	GSE93133	Translational Regulation Mechanism	HAP1 Cell	Malecki et al.	28108655	2017	SRP096025
+WT-2	SRR5144786	GSE93133	Translational Regulation Mechanism	HAP1 Cell	Malecki et al.	28108655	2017	SRP096025
+WT-1	SRR5144785	GSE93133	Translational Regulation Mechanism	HAP1 Cell	Malecki et al.	28108655	2017	SRP096025
+Ribosome profiling of control HCT116 cells treated with lactimidomycin	SRR4293695	GSE87328	Translational Regulation Mechanism	HCT116 Cell	et al.	28541577	2017	
+YTHDF3-RIP-IP-repl.1	SRR4098159	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling of HCT116 cells upon eIF1 knockdown treated with lactimidomycin	SRR4293693	GSE87328	Translational Regulation Mechanism	HCT116 Cell	et al.	28541577	2017	
+Ribosome profiling of HCT116 cells upon eIF1 knockdown treated with cycloheximide	SRR4293694	GSE87328	Translational Regulation Mechanism	HCT116 Cell	et al.	28541577	2017	
+YTHDF3-RIP-input-polyA	SRR4098161	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+YTHDF3-RIP-input-ribominus	SRR4098162	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep1-siControl-RPF	SRR4098163	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep1-siControl-input	SRR4098164	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep1-siYTHDF3-RPF	SRR4098165	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep1-siYTHDF3-input	SRR4098166	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+YTHDF3-RIP-IP-repl.2	SRR4098160	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep2-siYTHDF3-RPF	SRR4098169	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep2-siControl-RPF	SRR4098167	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep2-siYTHDF3-input	SRR4098170	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+Ribosome profiling-rep2-siControl-input	SRR4098168	GSE86214	mRNA Modification	HeLa Cell	Shi et al.	28106072	2017	
+24 h DENV1 infection Total cell lysate ribosome profiling (rep 1)	SRR2052984	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h DENV1 infection Total cell lysate ribosome profiling (rep 1)	SRR2052983	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected ER ribosome profiling (Rep 4)	SRR2052958	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected cytosol ribosome profiling (Rep 4)	SRR2052957	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment ER ribosome profiling (Rep 4)	SRR2052956	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection ER ribosome profiling (Rep 3)	SRR2052936	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment cytosol ribosome profiling (Rep 4)	SRR2052955	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection ER ribosome profiling (Rep 4)	SRR2052954	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection cytosol ribosome profiling (Rep 4)	SRR2052953	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection ER ribosome profiling (Rep 4)	SRR2052952	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection cytosol ribosome profiling (Rep 4)	SRR2052951	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection ER ribosome profiling (Rep 4)	SRR2052950	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+48 h DENV1 infection Total cell lysate ribosome profiling (rep 1)	SRR2052985	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h DENV1 infection Total cell lysate ribosome profiling (rep 1)	SRR2052986	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+72 h DENV1 infection Total cell lysate ribosome profiling (rep 1)	SRR2052987	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected Total cell lysate ribosome profiling (rep 1)	SRR2052988	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+72 h DENV2 infection Total cell lysate ribosome profiling (rep 2)	SRR2053004	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h DENV2 infection Total cell lysate ribosome profiling (rep 2)	SRR2053003	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+48 h DENV2 infection Total cell lysate ribosome profiling (rep 2)	SRR2053002	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h DENV2 infection Total cell lysate ribosome profiling (rep 2)	SRR2053001	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h DENV2 infection Total cell lysate ribosome profiling (rep 2)	SRR2053000	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+72 h DENV2 infection Total cell lysate ribosome profiling (rep 1)	SRR2052999	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h DENV2 infection Total cell lysate ribosome profiling (rep 1)	SRR2052998	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection cytosol ribosome profiling (Rep 4)	SRR2052949	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+48 h DENV2 infection Total cell lysate ribosome profiling (rep 1)	SRR2052997	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h DENV2 infection Total cell lysate ribosome profiling (rep 1)	SRR2052995	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected Total cell lysate ribosome profiling (rep 2)	SRR2052994	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+72 h DENV1 infection Total cell lysate ribosome profiling (rep 2)	SRR2052993	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h DENV1 infection Total cell lysate ribosome profiling (rep 2)	SRR2052992	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+48 h DENV1 infection Total cell lysate ribosome profiling (rep 2)	SRR2052991	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h DENV1 infection Total cell lysate ribosome profiling (rep 2)	SRR2052990	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h DENV1 infection Total cell lysate ribosome profiling (rep 2)	SRR2052989	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h DENV2 infection Total cell lysate ribosome profiling (rep 1)	SRR2052996	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection ER ribosome profiling (Rep 4)	SRR2052948	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment ER ribosome profiling (Rep 3)	SRR2052944	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected cytosol ribosome profiling (Rep 3)	SRR2052945	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected ER ribosome profiling (Rep 1)	SRR2052922	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection cytosol ribosome profiling (Rep 2)	SRR2052923	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection ER ribosome profiling (Rep 2)	SRR2052924	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection cytosol ribosome profiling (Rep 2)	SRR2052925	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection ER ribosome profiling (Rep 2)	SRR2052926	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection cytosol ribosome profiling (Rep 2)	SRR2052927	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected cytosol ribosome profiling (Rep 1)	SRR2052921	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection ER ribosome profiling (Rep 2)	SRR2052928	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection ER ribosome profiling (Rep 2)	SRR2052930	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment cytosol ribosome profiling (Rep 2)	SRR2052931	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment ER ribosome profiling (Rep 2)	SRR2052932	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected cytosol ribosome profiling (Rep 2)	SRR2052933	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected ER ribosome profiling (Rep 2)	SRR2052934	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection cytosol ribosome profiling (Rep 3)	SRR2052935	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection cytosol ribosome profiling (Rep 2)	SRR2052929	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection cytosol ribosome profiling (Rep 4)	SRR2052947	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment ER ribosome profiling (Rep 1)	SRR2052920	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection ER ribosome profiling (Rep 1)	SRR2052918	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection cytosol ribosome profiling (Rep 3)	SRR2052937	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment cytosol ribosome profiling (Rep 3)	SRR2052943	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection ER ribosome profiling (Rep 3)	SRR2052942	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection cytosol ribosome profiling (Rep 3)	SRR2052941	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection ER ribosome profiling (Rep 3)	SRR2052940	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection cytosol ribosome profiling (Rep 3)	SRR2052939	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Interferon treatment cytosol ribosome profiling (Rep 1)	SRR2052919	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection ER ribosome profiling (Rep 3)	SRR2052938	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection ER ribosome profiling (Rep 1)	SRR2052912	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection cytosol ribosome profiling (Rep 1)	SRR2052913	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+12 h infection ER ribosome profiling (Rep 1)	SRR2052914	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection cytosol ribosome profiling (Rep 1)	SRR2052915	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+24 h infection ER ribosome profiling (Rep 1)	SRR2052916	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+40 h infection cytosol ribosome profiling (Rep 1)	SRR2052917	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+6 h infection cytosol ribosome profiling (Rep 1)	SRR2052911	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187
+Uninfected ER ribosome profiling (Rep 3)	SRR2052946	GSE69602	Virus Infection, Stress Condition		Reid et al.	29321322	2018	SRP059187

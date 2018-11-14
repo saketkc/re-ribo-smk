@@ -15,3 +15,4 @@ INTRON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/
 ORIENTATIONS = ['5prime', '3prime']
 STRANDS = ['pos', 'neg', 'combined']
 FRAGMENT_LENGTHS =  range(18, 39)
+ADAPTER = 'CTGTAGGCACCATCAAT'

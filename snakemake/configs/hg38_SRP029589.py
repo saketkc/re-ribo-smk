@@ -1,6 +1,6 @@
 
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/hg38/SRP098789'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP098789'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/hg38/SRP029589'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP029589'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/hg38.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/hg38.chrom.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/hg38/star_annotated'
@@ -15,4 +15,3 @@ INTRON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/
 ORIENTATIONS = ['5prime', '3prime']
 STRANDS = ['pos', 'neg', 'combined']
 FRAGMENT_LENGTHS =  range(18, 39)
-ADAPTER = 'CTGTAGGCACCATCAAT'

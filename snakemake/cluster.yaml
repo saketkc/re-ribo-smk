@@ -32,7 +32,7 @@ create_index:
 
 map_star:
     cores: 16
-    mem: '40gb'
+    mem: '60gb'
 
 create_uniq_bedgraph_from_bam:
     cores: 16
@@ -52,7 +52,8 @@ fragment_length_pickle:
 
 merge_bams:
     cores: 1
-    mem: '100gb'
+    time: '12:00:00'
+    mem: '60gb'
 
 pickle_counts_cds:
     cores: 1

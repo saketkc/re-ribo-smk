@@ -1,4 +1,5 @@
 #!/bin/bash
+source activate ribocop_v2
 snakemake --snakefile Snakefile.ribocop\
     --config config_path=configs/$1.py\
     --js $PWD/jobscript.sh\

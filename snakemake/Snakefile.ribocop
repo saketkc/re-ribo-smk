@@ -1,7 +1,14 @@
 import glob
 include: config['config_path']
 
-RIBOCOP_SCRIPTS_DIR = '/home/cmb-panasas2/skchoudh/github_projects/ribocop-results/scripts/gene_scripts'
+if 'hg38' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/hg38/ribocop_v2_annotation_candidate_orfs.tsv'
+elif 'mm10' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/mm10/ribocop_v2_annotation_candidate_orfs.tsv'
+elif 'candida' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_v2_annotation_candidate_orfs.tsv'
+
+
 CONDAENV = 'ribocop_v2'
 import os
 import errno
@@ -29,12 +36,12 @@ mkdir_p(os.path.join(OUT_DIR, 'slurm-logs'))
 workdir: OUT_DIR
 
 
-BAM_FILES = glob.glob('{}/*.bam'.format(INPUT_DIR), recursive=False)
-SAMPLES = [sample.replace('{}/'.format(INPUT_DIR), '').replace('.bam', '') for sample in BAM_FILES]
+ALL_BAM_FILES = glob.glob('{}/bams_unique/*.bam'.format(OUT_DIR), recursive=False)
+SAMPLES =  [f.split('/')[-1].rstrip('.bam') for f in ALL_BAM_FILES]
 
 rule all:
   input:
-    expand('predict_orfs/{sample}_translating_ORFs.tsv', sample=SAMPLES)
+    expand('ribocop_results/{sample}_translating_ORFs.tsv', sample=SAMPLES)
 
 
 rule predict_orfs:
@@ -44,4 +51,4 @@ rule predict_orfs:
   params:
     prefix = 'ribocop_results/{sample}',
   shell:
-    r'''source activate {CONDAENV} && RiboCop detect-orfs --bam {input} --prefix {params.prefix} --gtf {GTF} --annotation {RIBOCOP_ANNOT}'''
+    r'''source activate {CONDAENV} && RiboCop detect-orfs --report_all --bam {input} --prefix {params.prefix} --ribocop_index {RIBOCOP_ANNOT}'''

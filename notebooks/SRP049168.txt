@@ -1,0 +1,3018 @@
+###########################################
+track SRP049168
+superTrack on
+group SRP049168
+shortLabel SRP049168
+longLabel SRP049168
+visibility full
+
+
+
+###############SRXHeader begin####################
+
+	track SRX738341_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX738341_5prime_multiWig
+	longLabel SRX738341_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		track SRX738341_23_5prime_combined
+		parent SRX738341_5prime_multiWig
+		priority 300
+		longLabel SRX738341_23_5prime_combined
+		shortLabel SRX738341_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738341/23/5prime_combined.bw
+
+
+
+		track SRX738341_24_5prime_combined
+		parent SRX738341_5prime_multiWig
+		priority 300
+		longLabel SRX738341_24_5prime_combined
+		shortLabel SRX738341_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738341/24/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		track SRX738341_32_5prime_combined
+		parent SRX738341_5prime_multiWig
+		priority 300
+		longLabel SRX738341_32_5prime_combined
+		shortLabel SRX738341_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738341/32/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX738342_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX738342_5prime_multiWig
+	longLabel SRX738342_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+
+
+
+
+
+
+
+
+		track SRX738342_22_5prime_combined
+		parent SRX738342_5prime_multiWig
+		priority 300
+		longLabel SRX738342_22_5prime_combined
+		shortLabel SRX738342_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738342/22/5prime_combined.bw
+
+
+
+
+
+		track SRX738342_24_5prime_combined
+		parent SRX738342_5prime_multiWig
+		priority 300
+		longLabel SRX738342_24_5prime_combined
+		shortLabel SRX738342_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738342/24/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		track SRX738342_31_5prime_combined
+		parent SRX738342_5prime_multiWig
+		priority 300
+		longLabel SRX738342_31_5prime_combined
+		shortLabel SRX738342_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738342/31/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX738343_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX738343_5prime_multiWig
+	longLabel SRX738343_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX738343_18_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_18_5prime_combined
+		shortLabel SRX738343_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/18/5prime_combined.bw
+
+
+
+		track SRX738343_19_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_19_5prime_combined
+		shortLabel SRX738343_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/19/5prime_combined.bw
+
+
+
+		track SRX738343_20_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_20_5prime_combined
+		shortLabel SRX738343_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/20/5prime_combined.bw
+
+
+
+		track SRX738343_21_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_21_5prime_combined
+		shortLabel SRX738343_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/21/5prime_combined.bw
+
+
+
+		track SRX738343_22_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_22_5prime_combined
+		shortLabel SRX738343_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/22/5prime_combined.bw
+
+
+
+		track SRX738343_23_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_23_5prime_combined
+		shortLabel SRX738343_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/23/5prime_combined.bw
+
+
+
+		track SRX738343_24_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_24_5prime_combined
+		shortLabel SRX738343_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/24/5prime_combined.bw
+
+
+
+		track SRX738343_25_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_25_5prime_combined
+		shortLabel SRX738343_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/25/5prime_combined.bw
+
+
+
+		track SRX738343_26_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_26_5prime_combined
+		shortLabel SRX738343_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/26/5prime_combined.bw
+
+
+
+		track SRX738343_27_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_27_5prime_combined
+		shortLabel SRX738343_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/27/5prime_combined.bw
+
+
+
+		track SRX738343_28_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_28_5prime_combined
+		shortLabel SRX738343_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/28/5prime_combined.bw
+
+
+
+		track SRX738343_29_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_29_5prime_combined
+		shortLabel SRX738343_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/29/5prime_combined.bw
+
+
+
+		track SRX738343_30_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_30_5prime_combined
+		shortLabel SRX738343_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/30/5prime_combined.bw
+
+
+
+		track SRX738343_31_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_31_5prime_combined
+		shortLabel SRX738343_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/31/5prime_combined.bw
+
+
+
+		track SRX738343_32_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_32_5prime_combined
+		shortLabel SRX738343_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/32/5prime_combined.bw
+
+
+
+		track SRX738343_33_5prime_combined
+		parent SRX738343_5prime_multiWig
+		priority 300
+		longLabel SRX738343_33_5prime_combined
+		shortLabel SRX738343_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738343/33/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX738344_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX738344_5prime_multiWig
+	longLabel SRX738344_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		track SRX738344_25_5prime_combined
+		parent SRX738344_5prime_multiWig
+		priority 300
+		longLabel SRX738344_25_5prime_combined
+		shortLabel SRX738344_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738344/25/5prime_combined.bw
+
+
+
+		track SRX738344_26_5prime_combined
+		parent SRX738344_5prime_multiWig
+		priority 300
+		longLabel SRX738344_26_5prime_combined
+		shortLabel SRX738344_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738344/26/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX738345_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX738345_5prime_multiWig
+	longLabel SRX738345_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX738345_18_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_18_5prime_combined
+		shortLabel SRX738345_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/18/5prime_combined.bw
+
+
+
+		track SRX738345_19_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_19_5prime_combined
+		shortLabel SRX738345_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/19/5prime_combined.bw
+
+
+
+		track SRX738345_20_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_20_5prime_combined
+		shortLabel SRX738345_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/20/5prime_combined.bw
+
+
+
+		track SRX738345_21_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_21_5prime_combined
+		shortLabel SRX738345_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/21/5prime_combined.bw
+
+
+
+		track SRX738345_22_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_22_5prime_combined
+		shortLabel SRX738345_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/22/5prime_combined.bw
+
+
+
+		track SRX738345_23_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_23_5prime_combined
+		shortLabel SRX738345_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/23/5prime_combined.bw
+
+
+
+		track SRX738345_24_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_24_5prime_combined
+		shortLabel SRX738345_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/24/5prime_combined.bw
+
+
+
+		track SRX738345_25_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_25_5prime_combined
+		shortLabel SRX738345_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/25/5prime_combined.bw
+
+
+
+		track SRX738345_26_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_26_5prime_combined
+		shortLabel SRX738345_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/26/5prime_combined.bw
+
+
+
+		track SRX738345_27_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_27_5prime_combined
+		shortLabel SRX738345_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/27/5prime_combined.bw
+
+
+
+		track SRX738345_28_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_28_5prime_combined
+		shortLabel SRX738345_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/28/5prime_combined.bw
+
+
+
+		track SRX738345_29_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_29_5prime_combined
+		shortLabel SRX738345_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/29/5prime_combined.bw
+
+
+
+		track SRX738345_30_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_30_5prime_combined
+		shortLabel SRX738345_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/30/5prime_combined.bw
+
+
+
+		track SRX738345_31_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_31_5prime_combined
+		shortLabel SRX738345_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/31/5prime_combined.bw
+
+
+
+		track SRX738345_32_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_32_5prime_combined
+		shortLabel SRX738345_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/32/5prime_combined.bw
+
+
+
+		track SRX738345_33_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_33_5prime_combined
+		shortLabel SRX738345_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/33/5prime_combined.bw
+
+
+
+		track SRX738345_34_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_34_5prime_combined
+		shortLabel SRX738345_34_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/34/5prime_combined.bw
+
+
+
+		track SRX738345_35_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_35_5prime_combined
+		shortLabel SRX738345_35_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/35/5prime_combined.bw
+
+
+
+		track SRX738345_36_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_36_5prime_combined
+		shortLabel SRX738345_36_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/36/5prime_combined.bw
+
+
+
+		track SRX738345_37_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_37_5prime_combined
+		shortLabel SRX738345_37_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/37/5prime_combined.bw
+
+
+
+		track SRX738345_38_5prime_combined
+		parent SRX738345_5prime_multiWig
+		priority 300
+		longLabel SRX738345_38_5prime_combined
+		shortLabel SRX738345_38_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738345/38/5prime_combined.bw
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX738346_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX738346_5prime_multiWig
+	longLabel SRX738346_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX738346_18_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_18_5prime_combined
+		shortLabel SRX738346_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/18/5prime_combined.bw
+
+
+
+		track SRX738346_19_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_19_5prime_combined
+		shortLabel SRX738346_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/19/5prime_combined.bw
+
+
+
+		track SRX738346_20_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_20_5prime_combined
+		shortLabel SRX738346_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/20/5prime_combined.bw
+
+
+
+		track SRX738346_21_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_21_5prime_combined
+		shortLabel SRX738346_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/21/5prime_combined.bw
+
+
+
+		track SRX738346_22_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_22_5prime_combined
+		shortLabel SRX738346_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/22/5prime_combined.bw
+
+
+
+		track SRX738346_23_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_23_5prime_combined
+		shortLabel SRX738346_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/23/5prime_combined.bw
+
+
+
+		track SRX738346_24_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_24_5prime_combined
+		shortLabel SRX738346_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/24/5prime_combined.bw
+
+
+
+		track SRX738346_25_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_25_5prime_combined
+		shortLabel SRX738346_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/25/5prime_combined.bw
+
+
+
+		track SRX738346_26_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_26_5prime_combined
+		shortLabel SRX738346_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/26/5prime_combined.bw
+
+
+
+		track SRX738346_27_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_27_5prime_combined
+		shortLabel SRX738346_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/27/5prime_combined.bw
+
+
+
+		track SRX738346_28_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_28_5prime_combined
+		shortLabel SRX738346_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/28/5prime_combined.bw
+
+
+
+		track SRX738346_29_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_29_5prime_combined
+		shortLabel SRX738346_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/29/5prime_combined.bw
+
+
+
+		track SRX738346_30_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_30_5prime_combined
+		shortLabel SRX738346_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/30/5prime_combined.bw
+
+
+
+		track SRX738346_31_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_31_5prime_combined
+		shortLabel SRX738346_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/31/5prime_combined.bw
+
+
+
+		track SRX738346_32_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_32_5prime_combined
+		shortLabel SRX738346_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/32/5prime_combined.bw
+
+
+
+		track SRX738346_33_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_33_5prime_combined
+		shortLabel SRX738346_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/33/5prime_combined.bw
+
+
+
+		track SRX738346_34_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_34_5prime_combined
+		shortLabel SRX738346_34_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/34/5prime_combined.bw
+
+
+
+		track SRX738346_35_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_35_5prime_combined
+		shortLabel SRX738346_35_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/35/5prime_combined.bw
+
+
+
+		track SRX738346_36_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_36_5prime_combined
+		shortLabel SRX738346_36_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/36/5prime_combined.bw
+
+
+
+		track SRX738346_37_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_37_5prime_combined
+		shortLabel SRX738346_37_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/37/5prime_combined.bw
+
+
+
+		track SRX738346_38_5prime_combined
+		parent SRX738346_5prime_multiWig
+		priority 300
+		longLabel SRX738346_38_5prime_combined
+		shortLabel SRX738346_38_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX738346/38/5prime_combined.bw
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX739267_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX739267_5prime_multiWig
+	longLabel SRX739267_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		track SRX739267_23_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_23_5prime_combined
+		shortLabel SRX739267_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/23/5prime_combined.bw
+
+
+
+		track SRX739267_24_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_24_5prime_combined
+		shortLabel SRX739267_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/24/5prime_combined.bw
+
+
+
+		track SRX739267_25_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_25_5prime_combined
+		shortLabel SRX739267_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/25/5prime_combined.bw
+
+
+
+		track SRX739267_26_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_26_5prime_combined
+		shortLabel SRX739267_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/26/5prime_combined.bw
+
+
+
+		track SRX739267_27_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_27_5prime_combined
+		shortLabel SRX739267_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/27/5prime_combined.bw
+
+
+
+		track SRX739267_28_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_28_5prime_combined
+		shortLabel SRX739267_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/28/5prime_combined.bw
+
+
+
+		track SRX739267_29_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_29_5prime_combined
+		shortLabel SRX739267_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/29/5prime_combined.bw
+
+
+
+		track SRX739267_30_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_30_5prime_combined
+		shortLabel SRX739267_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/30/5prime_combined.bw
+
+
+
+		track SRX739267_31_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_31_5prime_combined
+		shortLabel SRX739267_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/31/5prime_combined.bw
+
+
+
+		track SRX739267_32_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_32_5prime_combined
+		shortLabel SRX739267_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/32/5prime_combined.bw
+
+
+
+		track SRX739267_33_5prime_combined
+		parent SRX739267_5prime_multiWig
+		priority 300
+		longLabel SRX739267_33_5prime_combined
+		shortLabel SRX739267_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739267/33/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX739272_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX739272_5prime_multiWig
+	longLabel SRX739272_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX739294_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX739294_5prime_multiWig
+	longLabel SRX739294_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX739294_18_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_18_5prime_combined
+		shortLabel SRX739294_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/18/5prime_combined.bw
+
+
+
+		track SRX739294_19_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_19_5prime_combined
+		shortLabel SRX739294_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/19/5prime_combined.bw
+
+
+
+		track SRX739294_20_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_20_5prime_combined
+		shortLabel SRX739294_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/20/5prime_combined.bw
+
+
+
+		track SRX739294_21_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_21_5prime_combined
+		shortLabel SRX739294_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/21/5prime_combined.bw
+
+
+
+		track SRX739294_22_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_22_5prime_combined
+		shortLabel SRX739294_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/22/5prime_combined.bw
+
+
+
+		track SRX739294_23_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_23_5prime_combined
+		shortLabel SRX739294_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/23/5prime_combined.bw
+
+
+
+		track SRX739294_24_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_24_5prime_combined
+		shortLabel SRX739294_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/24/5prime_combined.bw
+
+
+
+		track SRX739294_25_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_25_5prime_combined
+		shortLabel SRX739294_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/25/5prime_combined.bw
+
+
+
+		track SRX739294_26_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_26_5prime_combined
+		shortLabel SRX739294_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/26/5prime_combined.bw
+
+
+
+		track SRX739294_27_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_27_5prime_combined
+		shortLabel SRX739294_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/27/5prime_combined.bw
+
+
+
+		track SRX739294_28_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_28_5prime_combined
+		shortLabel SRX739294_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/28/5prime_combined.bw
+
+
+
+		track SRX739294_29_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_29_5prime_combined
+		shortLabel SRX739294_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/29/5prime_combined.bw
+
+
+
+		track SRX739294_30_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_30_5prime_combined
+		shortLabel SRX739294_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/30/5prime_combined.bw
+
+
+
+		track SRX739294_31_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_31_5prime_combined
+		shortLabel SRX739294_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/31/5prime_combined.bw
+
+
+
+		track SRX739294_32_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_32_5prime_combined
+		shortLabel SRX739294_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/32/5prime_combined.bw
+
+
+
+		track SRX739294_33_5prime_combined
+		parent SRX739294_5prime_multiWig
+		priority 300
+		longLabel SRX739294_33_5prime_combined
+		shortLabel SRX739294_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739294/33/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX739327_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX739327_5prime_multiWig
+	longLabel SRX739327_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX739327_18_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_18_5prime_combined
+		shortLabel SRX739327_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/18/5prime_combined.bw
+
+
+
+		track SRX739327_19_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_19_5prime_combined
+		shortLabel SRX739327_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/19/5prime_combined.bw
+
+
+
+		track SRX739327_20_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_20_5prime_combined
+		shortLabel SRX739327_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/20/5prime_combined.bw
+
+
+
+		track SRX739327_21_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_21_5prime_combined
+		shortLabel SRX739327_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/21/5prime_combined.bw
+
+
+
+		track SRX739327_22_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_22_5prime_combined
+		shortLabel SRX739327_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/22/5prime_combined.bw
+
+
+
+		track SRX739327_23_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_23_5prime_combined
+		shortLabel SRX739327_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/23/5prime_combined.bw
+
+
+
+		track SRX739327_24_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_24_5prime_combined
+		shortLabel SRX739327_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/24/5prime_combined.bw
+
+
+
+		track SRX739327_25_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_25_5prime_combined
+		shortLabel SRX739327_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/25/5prime_combined.bw
+
+
+
+		track SRX739327_26_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_26_5prime_combined
+		shortLabel SRX739327_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/26/5prime_combined.bw
+
+
+
+		track SRX739327_27_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_27_5prime_combined
+		shortLabel SRX739327_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/27/5prime_combined.bw
+
+
+
+		track SRX739327_28_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_28_5prime_combined
+		shortLabel SRX739327_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/28/5prime_combined.bw
+
+
+
+		track SRX739327_29_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_29_5prime_combined
+		shortLabel SRX739327_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/29/5prime_combined.bw
+
+
+
+		track SRX739327_30_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_30_5prime_combined
+		shortLabel SRX739327_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/30/5prime_combined.bw
+
+
+
+		track SRX739327_31_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_31_5prime_combined
+		shortLabel SRX739327_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/31/5prime_combined.bw
+
+
+
+		track SRX739327_32_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_32_5prime_combined
+		shortLabel SRX739327_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/32/5prime_combined.bw
+
+
+
+		track SRX739327_33_5prime_combined
+		parent SRX739327_5prime_multiWig
+		priority 300
+		longLabel SRX739327_33_5prime_combined
+		shortLabel SRX739327_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739327/33/5prime_combined.bw
+
+
+
+
+
+
+
+
+
+
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX739565_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX739565_5prime_multiWig
+	longLabel SRX739565_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX739565_18_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_18_5prime_combined
+		shortLabel SRX739565_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/18/5prime_combined.bw
+
+
+
+		track SRX739565_19_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_19_5prime_combined
+		shortLabel SRX739565_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/19/5prime_combined.bw
+
+
+
+		track SRX739565_20_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_20_5prime_combined
+		shortLabel SRX739565_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/20/5prime_combined.bw
+
+
+
+		track SRX739565_21_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_21_5prime_combined
+		shortLabel SRX739565_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/21/5prime_combined.bw
+
+
+
+		track SRX739565_22_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_22_5prime_combined
+		shortLabel SRX739565_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/22/5prime_combined.bw
+
+
+
+		track SRX739565_23_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_23_5prime_combined
+		shortLabel SRX739565_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/23/5prime_combined.bw
+
+
+
+		track SRX739565_24_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_24_5prime_combined
+		shortLabel SRX739565_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/24/5prime_combined.bw
+
+
+
+		track SRX739565_25_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_25_5prime_combined
+		shortLabel SRX739565_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/25/5prime_combined.bw
+
+
+
+		track SRX739565_26_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_26_5prime_combined
+		shortLabel SRX739565_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/26/5prime_combined.bw
+
+
+
+		track SRX739565_27_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_27_5prime_combined
+		shortLabel SRX739565_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/27/5prime_combined.bw
+
+
+
+		track SRX739565_28_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_28_5prime_combined
+		shortLabel SRX739565_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/28/5prime_combined.bw
+
+
+
+		track SRX739565_29_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_29_5prime_combined
+		shortLabel SRX739565_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/29/5prime_combined.bw
+
+
+
+		track SRX739565_30_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_30_5prime_combined
+		shortLabel SRX739565_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/30/5prime_combined.bw
+
+
+
+		track SRX739565_31_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_31_5prime_combined
+		shortLabel SRX739565_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/31/5prime_combined.bw
+
+
+
+		track SRX739565_32_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_32_5prime_combined
+		shortLabel SRX739565_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/32/5prime_combined.bw
+
+
+
+		track SRX739565_33_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_33_5prime_combined
+		shortLabel SRX739565_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/33/5prime_combined.bw
+
+
+
+		track SRX739565_34_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_34_5prime_combined
+		shortLabel SRX739565_34_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/34/5prime_combined.bw
+
+
+
+		track SRX739565_35_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_35_5prime_combined
+		shortLabel SRX739565_35_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/35/5prime_combined.bw
+
+
+
+		track SRX739565_36_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_36_5prime_combined
+		shortLabel SRX739565_36_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/36/5prime_combined.bw
+
+
+
+		track SRX739565_37_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_37_5prime_combined
+		shortLabel SRX739565_37_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/37/5prime_combined.bw
+
+
+
+		track SRX739565_38_5prime_combined
+		parent SRX739565_5prime_multiWig
+		priority 300
+		longLabel SRX739565_38_5prime_combined
+		shortLabel SRX739565_38_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739565/38/5prime_combined.bw
+
+
+
+###############SRXHeader end####################
+
+###############SRXHeader begin####################
+
+	track SRX739597_5prime_multiWig
+	container multiWig
+	parent SRP049168
+	aggregate transparentOverlay
+	showSubtrackColorOnUi on
+	maxHeightPixels 500:100:8
+	viewLimits 0:20
+	shortLabel SRX739597_5prime_multiWig
+	longLabel SRX739597_5prime_multiWig
+	visibility full
+	type bigWig
+
+
+
+
+
+		track SRX739597_18_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_18_5prime_combined
+		shortLabel SRX739597_18_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/18/5prime_combined.bw
+
+
+
+		track SRX739597_19_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_19_5prime_combined
+		shortLabel SRX739597_19_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/19/5prime_combined.bw
+
+
+
+		track SRX739597_20_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_20_5prime_combined
+		shortLabel SRX739597_20_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/20/5prime_combined.bw
+
+
+
+		track SRX739597_21_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_21_5prime_combined
+		shortLabel SRX739597_21_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/21/5prime_combined.bw
+
+
+
+		track SRX739597_22_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_22_5prime_combined
+		shortLabel SRX739597_22_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/22/5prime_combined.bw
+
+
+
+		track SRX739597_23_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_23_5prime_combined
+		shortLabel SRX739597_23_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/23/5prime_combined.bw
+
+
+
+		track SRX739597_24_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_24_5prime_combined
+		shortLabel SRX739597_24_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/24/5prime_combined.bw
+
+
+
+		track SRX739597_25_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_25_5prime_combined
+		shortLabel SRX739597_25_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/25/5prime_combined.bw
+
+
+
+		track SRX739597_26_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_26_5prime_combined
+		shortLabel SRX739597_26_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/26/5prime_combined.bw
+
+
+
+		track SRX739597_27_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_27_5prime_combined
+		shortLabel SRX739597_27_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/27/5prime_combined.bw
+
+
+
+		track SRX739597_28_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_28_5prime_combined
+		shortLabel SRX739597_28_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/28/5prime_combined.bw
+
+
+
+		track SRX739597_29_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_29_5prime_combined
+		shortLabel SRX739597_29_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/29/5prime_combined.bw
+
+
+
+		track SRX739597_30_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_30_5prime_combined
+		shortLabel SRX739597_30_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/30/5prime_combined.bw
+
+
+
+		track SRX739597_31_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_31_5prime_combined
+		shortLabel SRX739597_31_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/31/5prime_combined.bw
+
+
+
+		track SRX739597_32_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_32_5prime_combined
+		shortLabel SRX739597_32_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/32/5prime_combined.bw
+
+
+
+		track SRX739597_33_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_33_5prime_combined
+		shortLabel SRX739597_33_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/33/5prime_combined.bw
+
+
+
+		track SRX739597_34_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_34_5prime_combined
+		shortLabel SRX739597_34_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/34/5prime_combined.bw
+
+
+
+		track SRX739597_35_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_35_5prime_combined
+		shortLabel SRX739597_35_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/35/5prime_combined.bw
+
+
+
+		track SRX739597_36_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_36_5prime_combined
+		shortLabel SRX739597_36_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/36/5prime_combined.bw
+
+
+
+		track SRX739597_37_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_37_5prime_combined
+		shortLabel SRX739597_37_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/37/5prime_combined.bw
+
+
+
+		track SRX739597_38_5prime_combined
+		parent SRX739597_5prime_multiWig
+		priority 300
+		longLabel SRX739597_38_5prime_combined
+		shortLabel SRX739597_38_5prime_combined
+		type bigWig
+		itemRgb On
+		windowingFunction mean
+		autoScale on
+		gridDefault on
+		color 24,90,197
+		visibility full
+		negateValues off
+		bigDataUrl /staging/as/skchoudh/re-ribo-analysis/mm10/SRP049168/bigWig_lengthwise_normalized/SRX739597/38/5prime_combined.bw
+
+
+
+###############SRXHeader end####################

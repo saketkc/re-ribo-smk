@@ -1,0 +1,47 @@
+import glob
+include: config['config_path']
+
+RIBOCOP_SCRIPTS_DIR = '/home/cmb-panasas2/skchoudh/github_projects/ribocop-results/scripts/gene_scripts'
+CONDAENV = 'ribocop_v2'
+import os
+import errno
+
+def mkdir_p(path):
+  """Python version mkdir -p
+
+  Parameters
+  ----------
+
+  path : str
+  """
+  if path:
+    try:
+      os.makedirs(path) 
+    except OSError as exc:  # Python >2.5
+      if exc.errno == errno.EEXIST and os.path.isdir(path):
+        pass
+      else:
+        raise
+
+
+
+mkdir_p(os.path.join(OUT_DIR, 'slurm-logs'))
+workdir: OUT_DIR
+
+
+BAM_FILES = glob.glob('{}/*.bam'.format(INPUT_DIR), recursive=False)
+SAMPLES = [sample.replace('{}/'.format(INPUT_DIR), '').replace('.bam', '') for sample in BAM_FILES]
+
+rule all:
+  input:
+    expand('predict_orfs/{sample}_translating_ORFs.tsv', sample=SAMPLES)
+
+
+rule predict_orfs:
+  input: 'bams_unique/{sample}.bam'
+  output: 'ribocop_results/{sample}_translating_ORFs.tsv'
+  benchmark: 'time_benchmarks/ribocop/predict_orfs/{sample}.txt'
+  params:
+    prefix = 'ribocop_results/{sample}',
+  shell:
+    r'''source activate {CONDAENV} && RiboCop detect-orfs --bam {input} --prefix {params.prefix} --gtf {GTF} --annotation {RIBOCOP_ANNOT}'''

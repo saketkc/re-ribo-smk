@@ -3,9 +3,14 @@ import pandas as pd
 import numpy as np
 import pybedtools
 import tempfile
-from riboraptor.helpers import path_leaf
+import ntpath
+
 from snakemake.shell import shell
 
+def path_leaf(path):
+    """Get path's tail from a filepath"""
+    head, tail = ntpath.split(path)
+    return tail or ntpath.basename(head)
 
 def total_genome_size(chrom_sizes_file):
     """Return sum total of chromosome sizes"""

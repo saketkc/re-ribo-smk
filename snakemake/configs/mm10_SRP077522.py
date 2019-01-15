@@ -1,8 +1,8 @@
 ## Absolute location where all raw files are
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/samples_to_process/SRP077522'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/mus_musculus/SRP077522'
 
 ## Output directory
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/mm10/SRP077522'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis_orig/mm10/SRP077522'
 
 ## Genome fasta location
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/mm10/fasta/mm10.fa'

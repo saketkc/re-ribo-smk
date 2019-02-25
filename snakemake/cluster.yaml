@@ -86,4 +86,28 @@ report:
 predict_orfs:
     cores: 1
     time: '12:00:00'
-    mem: '60gb'
+    mem: '120gb'
+
+featurecounts:
+    cores: 16
+    mem: '40GB'
+
+
+featurecounts_cds:
+    cores: 16
+    mem: '40GB'
+
+rsem_bams:
+    mem: '60GB'
+  
+rsem_counts:
+    cores: 16
+    mem: '60GB'
+
+quantify_cds:
+    cores: 16
+    mem: '60GB'
+
+quantify_cdna:
+    cores: 16
+    mem: '60GB'

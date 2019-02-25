@@ -24,7 +24,7 @@ for protocol, bams in protocols.items():
     output = os.path.abspath(str(snakemake.output)) + '-' + protocol
     outputs.append(output)
     shell(
-        r'''featureCounts {count_strat} -a {snakemake.params.annotation} -o {output} -t exon -g gene_id -Q 4 -T {snakemake.threads} {bams}'''
+        r'''featureCounts {count_strat} -a {snakemake.params.annotation} -o {output} -t CDS -g gene_id -Q 4 -T {snakemake.threads} {bams}'''
     )
 df = pd.read_table(outputs[0], skiprows=[0])
 if len(outputs) > 1:

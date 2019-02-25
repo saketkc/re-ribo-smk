@@ -64,6 +64,7 @@ rule all:
         expand('reports/{sample}_riboraptor_report.html', sample=SRX_SAMPLES),
         #expand('qc_post_trimming/{sample}_trimmed_trimmed_fastqc.zip', sample=ALL_SRR),
         #expand('qc/{sample}_fastqc.zip', sample=SRX_SAMPLES),
+        expand('inferred_protocol/{sample}.txt', sample=SRX_SAMPLES),
         expand('plots/periodicity/{sample}.png', sample=SRX_SAMPLES),
         expand('bigWig_lengthwise_normalized/{sample}/{fragment_length}/{orientation}_{strand}.bw',
                sample=SRX_SAMPLES,
@@ -73,6 +74,7 @@ rule all:
         expand('bams_unique/{sample}.bam', sample=SRX_SAMPLES),
         dynamic('multiqc_report/multiqc_plots/png/{plot}.png'),
         'featureCounts/fcounts.tsv',
+        'featureCounts_CDS/fcounts.tsv',
         'multiqc_report/aggregated_report.html',
         'reports/riboraptor_report_summarized.html',
 
@@ -483,7 +485,7 @@ rule plot_metagene_individual_length:
 
 rule featurecounts:
     input:
-        bams = expand('bams/{sample}.bam',
+        bams = expand('bams_unique/{sample}.bam',
                       sample=SRX_SAMPLES),
         hdfs = expand('hdf/{sample}.hdf5',
                       sample=SRX_SAMPLES)
@@ -494,6 +496,20 @@ rule featurecounts:
     threads: 16
     wrapper:
         get_wrapper('featurecounts_wrapper')
+
+rule featurecounts_cds:
+    input:
+        bams = expand('bams_unique/{sample}.bam',
+                      sample=SRX_SAMPLES),
+        hdfs = expand('hdf/{sample}.hdf5',
+                      sample=SRX_SAMPLES)
+    benchmark: 'benchmarks/featurecounts_CDS/featurecounts.txt'
+    output: 'featureCounts_CDS/fcounts.tsv'
+    params:
+        annotation  = GTF
+    threads: 16
+    wrapper:
+        get_wrapper('featurecounts_cds_wrapper')
 
 
 rule multiqc:

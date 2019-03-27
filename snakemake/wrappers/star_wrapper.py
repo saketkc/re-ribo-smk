@@ -46,6 +46,7 @@ with tempfile.TemporaryDirectory(dir=snakemake.params.tmp_dir) as temp_dir:
                 --alignIntronMin {ALIGN_INTRON_Nmin}\
                 --alignIntronMax {ALIGN_INTRON_Nmax}\
                 --outFileNamePrefix {OUT_PREFIX}\
+                --alignEndsType EndToEnd\
                 --readFilesIn {snakemake.input.R1}\
                 --readFilesCommand zcat\
                 --quantMode TranscriptomeSAM GeneCounts\

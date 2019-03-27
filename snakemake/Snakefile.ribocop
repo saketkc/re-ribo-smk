@@ -5,14 +5,21 @@ if 'hg38' in config['config_path']:
   #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/hg38/ribocop_v2_annotation_candidate_orfs.tsv'
   RIBOCOP_ANNOT = '/staging/as/skchoudh/ribocop_hg38_feb2019_annotation_longest_candidate_orfs.tsv'
 elif 'mm10' in config['config_path']:
-  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/mm10/ribocop_v2_annotation_candidate_orfs.tsv'
+  #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/mm10/ribocop_v2_annotation_candidate_orfs.tsv'
+  RIBOCOP_ANNOT = '/home/cmb-06/as/skchoudh/genomes/mm10/ribocop_feb2019_annotation_longest_orf_candidate_orfs.tsv'
+elif 'BDGP' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-06/as/skchoudh/genomes/BDGP6/ribocop_feb2019_annotation_longest_orf_candidate_orfs.tsv'
+
 elif 'candida' in config['config_path']:
-  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_v2_annotation_candidate_orfs.tsv'
+  #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_v2_annotation_candidate_orfs.tsv'
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_annotation_gtfr50_genomer27_feb2019_candidate_orfs.tsv'
 
 
 CONDAENV = 'ribocop_feb2019'
 import os
 import errno
+
+REGIONS = ['super_uORF', 'annotated', 'super_dORF']
 
 def mkdir_p(path):
   """Python version mkdir -p
@@ -40,10 +47,12 @@ workdir: OUT_DIR
 ALL_BAM_FILES = glob.glob('{}/bams_unique/*.bam'.format(OUT_DIR), recursive=False)
 SAMPLES =  [f.split('/')[-1].rstrip('.bam') for f in ALL_BAM_FILES]
 
+
 rule all:
   input:
     #expand('ribocop_results/{sample}_translating_ORFs.tsv', sample=SAMPLES)
-    expand('ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv', sample=SAMPLES)
+    expand('ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv', sample=SAMPLES),
+    expand('ribocop_results_Feb2019_longest/region_counts/{region}/{sample}_counts_cnt.txt', region=REGIONS, sample=SAMPLES)
 
 
 rule predict_orfs:
@@ -54,6 +63,17 @@ rule predict_orfs:
     prefix = 'ribocop_results_Feb2019_longest/{sample}',
   shell:
     r'''source activate {CONDAENV} && RiboCop detect-orfs --report_all --bam {input} --prefix {params.prefix} --ribocop_index {RIBOCOP_ANNOT}'''
+
+rule count_orfs:
+  input: 'ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv'
+  output: 'ribocop_results_Feb2019_longest/region_counts/{region}/{sample}_counts_cnt.txt'
+  benchmark: 'time_benchmarks/ribocop/count_orfs/{region}/{sample}.txt'
+  params:
+    prefix = 'ribocop_results_Feb2019_longest/region_counts/{region}/{sample}_counts',
+    region = '{region}'
+  shell:
+    r'''RiboCop count-orfs --report_all --ribocop_index {RIBOCOP_ANNOT} --features {params.region} --detected_orfs {input} --prefix {params.prefix}'''
+
 
 """
 rule quantify:

@@ -1,6 +1,5 @@
-RAWDATA_DIR ='/home/cmb-panasas2/skchoudh/rna/Dec_12_2017_Kadosh_C_albicans_30C_37C_all_fastq/mapped_mRNA_only_collapsed/bams'
-OUT_DIR ='/home/cmb-panasas2/skchoudh/rna/July_07_2018_Kadosh_Flu_Film_Planktonic_merged_riboraptor'
-#OUT_DIR ='/home/cmb-panasas2/skchoudh/rna/July_07_2018_Kadosh_Flu_Film_Planktonic_merged_ribocop_feb2019_longest'
+RAWDATA_DIR ='/home/cmb-06/as/skchoudh/rna/Feb_02_2019_Kadosh_Film_Planktonic/mapped_mRNA_only_collapsed/bams'
+OUT_DIR ='/staging/as/skchoudh/rna/Feb_02_2019_Kadosh_Film_Planktonic_riboraptor_longest_feb2019'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/fasta/C_albicans_SC5314_version_A22-s07-m01-r27_chromosomes.fasta'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/fasta/C_albicans_SC5314_version_A22-s07-m01-r27_chromosomes.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/star_mrna_index'

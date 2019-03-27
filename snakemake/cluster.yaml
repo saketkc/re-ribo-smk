@@ -6,6 +6,12 @@ __default__:
     logout: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.out'
     logerror: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.err'
 
+count_orfs:
+    mem: '61GB'
+
+predict_orfs:
+    mem: '61GB'
+
 create_index:
     cores: 16
     mem: '61GB'

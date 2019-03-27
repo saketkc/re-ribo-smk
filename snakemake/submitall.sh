@@ -1,4 +1,5 @@
 #!/bin/bash
+#source activate riboraptor
 snakemake --snakefile Snakefile\
     --config config_path=configs/$1.py\
     --js $PWD/jobscript.sh\

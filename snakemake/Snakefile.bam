@@ -42,7 +42,8 @@ rule all:
                strand=STRANDS),
         dynamic('multiqc_report/multiqc_plots/png/{plot}.png'),
         expand('reports/{sample}_riboraptor_report.html', sample=SAMPLES),
-        'featureCounts/fcounts.tsv',
+        'featureCounts_exon/fcounts.exon.tsv',
+        'featureCounts_CDS/fcounts.CDS.tsv',
         'multiqc_report/aggregated_report.html',
         'reports/riboraptor_report_summarized.html',
 
@@ -277,14 +278,31 @@ rule featurecounts:
         bams = expand('bams_unique/{sample}.bam',
                       sample=SAMPLES),
         hdfs = expand('hdf/{sample}.hdf5',
-                      sample=SAMPLES)
-    benchmark: 'benchmarks/featurecounts/featurecounts.txt'
-    output: 'featureCounts/fcounts.tsv'
+                      sample=SAMPLES),
+        bed = CDS_BED
+    benchmark: 'benchmarks/featurecounts_exon/featurecounts.exon.txt'
+    output: 'featureCounts_exon/fcounts.exon.tsv'
     params:
         annotation  = GTF
     threads: 16
     wrapper:
         get_wrapper('featurecounts_wrapper')
+
+rule featurecounts_CDS:
+    input:
+        bams = expand('bams_unique/{sample}.bam',
+                      sample=SAMPLES),
+        hdfs = expand('hdf/{sample}.hdf5',
+                      sample=SAMPLES),
+        bed = CDS_BED
+    benchmark: 'benchmarks/featurecounts_CDS/featurecounts.CDS.txt'
+    output: 'featureCounts_CDS/fcounts.CDS.tsv'
+    params:
+        annotation  = GTF
+    threads: 16
+    wrapper:
+        get_wrapper('featurecounts_cds_wrapper')
+
 
 
 rule multiqc:

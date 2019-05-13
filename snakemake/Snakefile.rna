@@ -200,7 +200,7 @@ rule extract_uniq_mapping:
     benchmark: 'benchmarks/extract_uniq_mapping/{sample}.txt'
     output: 'bams_unique/{sample}.bam'
     params:
-        tmp_dir = '/tmp'
+        tmp_dir = '/staging/as/skchoudh/tmp'
     threads: 16
     wrapper:
         get_wrapper('uniq_mapping_wrapper')

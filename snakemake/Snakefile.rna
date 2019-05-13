@@ -13,6 +13,11 @@ RIBOTRICER_ANNOTATION_PREFIX = None
 include: config['config_path']
 
 assert GTF_VERSION is not None
+assert RIBOTRICER_ANNOTATION_PREFIX is not None
+
+#RIBOTRICER_ANNOTATION_PREFIX = RIBOTRICER_ANNOTATION.replace("_candidate_orfs.tsv", "")
+RIBOTRICER_ANNOTATION = RIBOTRICER_ANNOTATION_PREFIX + "_candidate_orfs.tsv"
+
 
 # Append GTF in STAR index
 if GTF_VERSION not in STAR_INDEX:
@@ -87,7 +92,9 @@ def get_multiqc_report_input(wildcards):
 rule all:
   input:
     'featureCounts_exon/fcounts.tsv',
-    'featureCounts_CDS/fcounts.tsv'
+    'featureCounts_CDS/fcounts.tsv',
+    expand('ribotricer_rna_results/{sample}_translating_ORFs.tsv', sample=SRX_SAMPLES), 
+    expand('ribotricer_rna_results/region_counts/{region}/{sample}_counts_cnt.txt', region=REGIONS, sample=SRX_SAMPLES),
 
 
 def total_genome_size():
@@ -229,3 +236,22 @@ rule featurecounts_cds:
     wrapper:
         get_wrapper('featurecounts_cds_wrapper')
 
+rule predict_orfs:
+  input:
+    bam = 'bams_unique/{sample}.bam',
+    index = RIBOTRICER_ANNOTATION
+  output: 'ribotricer_rna_results/{sample}_translating_ORFs.tsv'
+  params:
+    prefix = 'ribotricer_rna_results/{sample}',
+  shell:
+    r'''ribotricer_rna detect-orfs --report_all --bam {input.bam} --prefix {params.prefix} --ribotricer_index {input.index}'''
+
+
+rule count_orfs:
+  input: 'ribotricer_rna_results/{sample}_translating_ORFs.tsv'
+  output: 'ribotricer_rna_results/region_counts/{region}/{sample}_counts_cnt.txt'
+  params:
+    prefix = 'ribotricer_rna_results/region_counts/{region}/{sample}_counts',
+    region = '{region}'
+  shell:
+    r'''ribotricer_rna count-orfs --report_all --ribotricer_index {RIBOTRICER_ANNOTATION} --features {params.region} --detected_orfs {input} --prefix {params.prefix}'''

@@ -1,6 +1,6 @@
 
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/Mmul8/SRP062129'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/Mmul8/SRP062129'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/Mmul8/SRP028612'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/Mmul8/SRP028612'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/Mmul8/fasta/Macaca_mulatta.Mmul_8.0.1.dna.toplevel.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/Mmul8/fasta/Macaca_mulatta.Mmul_8.0.1.dna.toplevel.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/Mmul8/star_annotated'

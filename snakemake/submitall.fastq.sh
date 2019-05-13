@@ -1,5 +1,6 @@
 #!/bin/bash
-snakemake --snakefile Snakefile.bam\
+source activate riboraptor
+snakemake --snakefile Snakefile.fastq\
     --config config_path=configs/$1.py\
     --js $PWD/jobscript.sh\
     --printshellcmds\

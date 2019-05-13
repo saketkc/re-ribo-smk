@@ -1,0 +1,68 @@
+import glob
+include: config['config_path']
+
+if 'hg38' in config['config_path']:
+  #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/hg38/ribocop_v2_annotation_candidate_orfs.tsv'
+  RIBOCOP_ANNOT = '/staging/as/skchoudh/ribocop_hg38_feb2019_annotation_longest_candidate_orfs.tsv'
+  RSEM_INDEX = '/home/cmb-panasas2/skchoudh/genomes/hg38/rsem_index/hg38'
+elif 'mm10' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/mm10/ribocop_v2_annotation_candidate_orfs.tsv'
+  RSEM_INDEX = '/home/cmb-panasas2/skchoudh/genomes/mm10/rsem_index/mm10'
+elif 'candida' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_v2_annotation_candidate_orfs.tsv'
+
+
+CONDAENV = 'ribocop_feb2019'
+import os
+import errno
+
+def mkdir_p(path):
+  """Python version mkdir -p
+
+  Parameters
+  ----------
+
+  path : str
+  """
+  if path:
+    try:
+      os.makedirs(path) 
+    except OSError as exc:  # Python >2.5
+      if exc.errno == errno.EEXIST and os.path.isdir(path):
+        pass
+      else:
+        raise
+
+
+
+mkdir_p(os.path.join(OUT_DIR, 'slurm-logs'))
+workdir: OUT_DIR+'/rsem-out'
+
+
+ALL_BAM_FILES = glob.glob('{}/bams_unique/*.bam'.format(OUT_DIR), recursive=False)
+SAMPLES =  [f.split('/')[-1].rstrip('.bam') for f in ALL_BAM_FILES]
+
+rule all:
+  input:
+    expand('rsem-counts/{sample}.isoforms.results', sample=SAMPLES)
+
+rule rsem_bams:
+    input: '../bams_unique/{sample}.bam'
+    output: 'rsem_bams/{sample}.bam'
+    params:
+        prefix = 'rsem_bams/{sample}'
+    shell:
+        r'''convert-sam-for-rsem {input} {params.prefix}'''
+
+
+rule rsem_counts:
+    input: 'rsem_bams/{sample}.bam'
+    params:
+        annotation=GTF,
+        prefix='rsem-counts/{sample}'
+    output: 'rsem-counts/{sample}.isoforms.results'
+    threads: 16
+    shell:
+        r'''
+        rsem-calculate-expression --bam -p {threads} {input} {RSEM_INDEX} {params.prefix}
+        '''

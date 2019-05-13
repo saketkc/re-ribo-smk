@@ -313,7 +313,7 @@ rule multiqc:
         #                 sample=SAMPLES),
         bams = expand(RAWDATA_DIR + '/{sample}.bam',
                       sample=SAMPLES),
-        counts = 'featureCounts/fcounts.tsv',
+        counts = 'featureCounts_exon/fcounts.exon.tsv',
     output:
         dynamic('multiqc_report/multiqc_plots/png/{plot}.png')
     resources:
@@ -327,7 +327,7 @@ rule multiqc:
 rule aggregate_multiqc_plots:
     input:
         dynamic_input = get_multiqc_report_input,
-        counts = 'featureCounts/fcounts.tsv',
+        count = 'featureCounts_exon/fcounts.exon.tsv',
     benchmark: 'benchmarks/aggregate_multiqc_plots/multiqc.txt'
     output:
         html='multiqc_report/aggregated_report.html'

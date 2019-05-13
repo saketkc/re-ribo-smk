@@ -1,6 +1,6 @@
 __default__:
     partition: 'cmb'
-    time: '04:00:00'
+    time: '24:00:00'
     mem: '2gb'
     cores: 1
     logout: 'slurm-logs/snakemake-slurm-logs-{rule}.{wildcards}.out'
@@ -14,10 +14,10 @@ predict_orfs:
 
 create_index:
     cores: 16
-    mem: '61GB'
+    mem: '1GB'
 
 sra_to_fastq:
-    cores: 1
+    cores: 16
     mem: '8gb'
 
 perform_trimming:
@@ -35,6 +35,11 @@ bigwig_from_uniq_bedgraph_raw:
 create_index:
     cores: 16
     mem: '40gb'
+
+prepare_orfs:
+    cores: 1
+    mem: '60gb'
+
 
 map_star:
     cores: 16
@@ -59,7 +64,7 @@ fragment_length_pickle:
 merge_bams:
     cores: 1
     time: '12:00:00'
-    mem: '100gb'
+    mem: '110gb'
 
 pickle_counts_cds:
     cores: 1

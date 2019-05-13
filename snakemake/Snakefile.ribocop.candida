@@ -1,0 +1,106 @@
+import glob
+include: config['config_path']
+
+if 'hg38' in config['config_path']:
+  #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/hg38/ribocop_v2_annotation_candidate_orfs.tsv'
+  RIBOCOP_ANNOT = '/staging/as/skchoudh/ribocop_hg38_feb2019_annotation_longest_candidate_orfs.tsv'
+elif 'mm10' in config['config_path']:
+  #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/mm10/ribocop_v2_annotation_candidate_orfs.tsv'
+  RIBOCOP_ANNOT = '/home/cmb-06/as/skchoudh/genomes/mm10/ribocop_feb2019_annotation_longest_orf_candidate_orfs.tsv'
+elif 'BDGP' in config['config_path']:
+  RIBOCOP_ANNOT = '/home/cmb-06/as/skchoudh/genomes/BDGP6/ribocop_feb2019_annotation_longest_orf_candidate_orfs.tsv'
+
+elif 'candida' in config['config_path']:
+  #RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_v2_annotation_candidate_orfs.tsv'
+  RIBOCOP_ANNOT = '/home/cmb-panasas2/skchoudh/genomes/C_albicans_SC5314/Assembly22/ribocop_annotation_gtfr50_genomer27_feb2019_candidate_orfs.tsv'
+
+REGIONS = ['super_uORF', 'annotated', 'super_dORF']
+
+CONDAENV = 'ribocop_feb2019'
+import os
+import errno
+
+def mkdir_p(path):
+  """Python version mkdir -p
+
+  Parameters
+  ----------
+
+  path : str
+  """
+  if path:
+    try:
+      os.makedirs(path) 
+    except OSError as exc:  # Python >2.5
+      if exc.errno == errno.EEXIST and os.path.isdir(path):
+        pass
+      else:
+        raise
+
+
+
+mkdir_p(os.path.join(OUT_DIR, 'slurm-logs'))
+workdir: OUT_DIR
+
+
+ALL_BAM_FILES = glob.glob('{}/bams_unique/*.bam'.format(OUT_DIR), recursive=False)
+#ALL_BAM_FILES = glob.glob('{}/*.bam'.format(RAWDATA_DIR), recursive=False)
+SAMPLES =  [f.split('/')[-1].rstrip('.bam') for f in ALL_BAM_FILES]
+
+rule all:
+  input:
+    #expand('ribocop_results/{sample}_translating_ORFs.tsv', sample=SAMPLES)
+    expand('ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv', sample=SAMPLES),
+    expand('ribocop_results_Feb2019_longest/region_counts/{region}/{sample}_counts_cnt.txt', region=REGIONS, sample=SAMPLES)
+
+
+rule predict_orfs:
+  input: 'bams_unique/{sample}.bam'
+  output: 'ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv'
+  benchmark: 'time_benchmarks/ribocop/predict_orfs/{sample}.txt'
+  params:
+    prefix = 'ribocop_results_Feb2019_longest/{sample}',
+  shell:
+    r'''RiboCop detect-orfs --report_all --bam {input} --prefix {params.prefix} --ribocop_index {RIBOCOP_ANNOT}'''
+
+rule count_orfs:
+  input: 'ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv'
+  output: 'ribocop_results_Feb2019_longest/region_counts/{region}/{sample}_counts_cnt.txt'
+  benchmark: 'time_benchmarks/ribocop/count_orfs/{region}/{sample}.txt'
+  params:
+    prefix = 'ribocop_results_Feb2019_longest/region_counts/{region}/{sample}_counts',
+    region = '{region}'
+  shell:
+    r'''RiboCop count-orfs --report_all --ribocop_index {RIBOCOP_ANNOT} --features {params.region} --detected_orfs {input} --prefix {params.prefix}'''
+
+
+"""
+rule count_orfs:
+  input: 'ribocop_results_Feb2019_longest/{sample}_translating_ORFs.tsv'
+  output: 'ribocop_results_Feb2019_longest/{sample}_counts_cnt.txt'
+  benchmark: 'time_benchmarks/ribocop/count_orfs/{sample}.txt'
+  params:
+    prefix = 'ribocop_results_Feb2019_longest/{sample}_counts',
+  shell:
+    r'''RiboCop count-orfs --report_all --ribocop_index {RIBOCOP_ANNOT} --features 'super_uORF,annotated,super_dORF' --detected_orfs {input} --prefix {params.prefix}'''
+
+rule quantify:
+    input:
+        R1='fastq_merged/{sample}.fastq.gz',
+    output:
+        'counts/{sample}/abundance.tsv',
+    params:
+        index=CDNA_IDX,
+        outdir='counts/{sample}'
+    threads: 16 ## hardcoded below
+    shell:
+        r'''
+        kallisto quant \
+        --index={params.index} \
+        --threads={threads}\
+        -l 200 \
+        -s 30 \
+        --output-dir={params.outdir} \
+        --single \
+        -b 100 <(zcat {input.R1})'''
+"""

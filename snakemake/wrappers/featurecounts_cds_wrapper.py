@@ -1,5 +1,4 @@
 import os
-import h5py
 from snakemake.shell import shell
 from collections import defaultdict
 import pandas as pd

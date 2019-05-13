@@ -1,6 +1,7 @@
 #!/bin/bash
-snakemake --snakefile Snakefile.bam\
-    --config config_path=configs/$1.py\
+source activate ribocop_feb2019
+snakemake --snakefile Snakefile.kallisto.se\
+    --config config_path=kallisto-configs/$1.py\
     --js $PWD/jobscript.sh\
     --printshellcmds\
     --cluster-config $PWD/cluster.yaml\

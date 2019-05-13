@@ -104,14 +104,16 @@ rule create_index:
     input:
         fasta=GENOME_FASTA,
         gtf=GTF
-    output: STAR_INDEX
+    output: 
+        dir = directory(STAR_INDEX),
+        #index = os.path.join(STAR_INDEX, 'SAindex') 
     resources:
         mem_mb=61000
     threads: 16
     shell:
         r'''mkdir -p {output} && STAR --runThreadN {threads}\
         --runMode genomeGenerate \
-        --genomeDir {output} \
+        --genomeDir {output.dir} \
         --genomeSAindexNbases {SA_INDEX_Nbases} \
         --genomeFastaFiles {input.fasta}\
         --sjdbGTFfile {input.gtf}'''

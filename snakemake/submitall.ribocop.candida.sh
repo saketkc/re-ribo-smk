@@ -1,5 +1,6 @@
 #!/bin/bash
-snakemake --snakefile Snakefile.bam\
+source activate ribocop_feb2019
+snakemake --snakefile Snakefile.ribocop.candida\
     --config config_path=configs/$1.py\
     --js $PWD/jobscript.sh\
     --printshellcmds\

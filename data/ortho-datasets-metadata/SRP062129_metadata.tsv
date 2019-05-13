@@ -1,0 +1,15 @@
+experiment_accession	cell_line	species	sex	assay
+SRX1135820	Min18358	panTro3	female	ribo
+SRX1135821	Min18358	panTro3	female	ribo
+SRX1135822	NS03659	panTro3	female	ribo
+SRX1135823	NS04973	panTro3	male	ribo
+SRX1135824	Pt91	panTro3	male	ribo
+SRX1135825	150-99	Mmul8	female	ribo
+SRX1135826	R181-96	Mmul8	male	ribo
+SRX1135827	R249-97	Mmul8	male	ribo
+SRX1135828	265-95	Mmul8	male	ribo
+SRX1135829	R290-96	Mmul8	male	ribo
+SRX2786686	GM19127	GRCh38	female	ribo
+SRX2786687	GM19137	GRCh38	female	ribo
+SRX2786688	GM19144	GRCh38	male	ribo
+SRX2786689	GM19147	GRCh38	female	ribo

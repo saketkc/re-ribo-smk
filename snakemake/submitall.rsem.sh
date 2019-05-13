@@ -1,5 +1,6 @@
 #!/bin/bash
-snakemake --snakefile Snakefile.bam\
+source activate ribocop_v2
+snakemake --snakefile Snakefile.rsem\
     --config config_path=configs/$1.py\
     --js $PWD/jobscript.sh\
     --printshellcmds\

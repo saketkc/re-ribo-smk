@@ -1,6 +1,6 @@
 
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/panTro3/SRP062129'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/panTro3/SRP062129'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/panTro3/SRP028612'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/panTro3/SRP028612'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/panTro3/fasta/Pan_troglodytes.Pan_tro_3.0.dna.toplevel.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/panTro3/fasta/Pan_troglodytes.Pan_tro_3.0.dna.toplevel.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/panTro3/star_annotated'

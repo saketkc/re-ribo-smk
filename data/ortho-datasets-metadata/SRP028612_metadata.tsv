@@ -1,0 +1,17 @@
+experiment_accession	cell_line	species	sex	assay
+SRX333018	PT91	panTro3	male	rna
+SRX333019	S004973	panTro3	male	rna
+SRX333020	S003659	panTro3	female	rna
+SRX333021	AG18359	panTro3	female	rna
+SRX333022	AG18358	panTro3	female	rna
+SRX333023	R181-96	Mmul8	male	rna
+SRX333024	265-95	Mmul8	male	rna
+SRX333025	R249-97	Mmul8	male	rna
+SRX333026	150-99	Mmul8	female	rna
+SRX333027	R290-96	GRCh38	male	rna
+SRX333028	GM18505	GRCh38	female	rna
+SRX333029	GM18507	GRCh38	male	rna
+SRX333030	GM18516	GRCh38	male	rna
+SRX333031	GM19193	GRCh38	female	rna	
+SRX333032	GM19204	GRCh38	female	rna
+SRX333033	GM19238	GRCh38	female	rna

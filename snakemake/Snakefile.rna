@@ -18,13 +18,14 @@ assert RIBOTRICER_ANNOTATION_PREFIX is not None
 #RIBOTRICER_ANNOTATION_PREFIX = RIBOTRICER_ANNOTATION.replace("_candidate_orfs.tsv", "")
 RIBOTRICER_ANNOTATION = RIBOTRICER_ANNOTATION_PREFIX + "_candidate_orfs.tsv"
 
+REGIONS = ['super_uORF,uORF', 'super_uORF,uORF,overlap_uORF', 'super_uORF,overlap_uORF', 'annotated', 'super_dORF']
 
 # Append GTF in STAR index
 if GTF_VERSION not in STAR_INDEX:
   STAR_INDEX = STAR_INDEX + '_' + GTF_VERSION
 
 
-REGIONS = ['super_uORF', 'annotated', 'super_dORF']
+#REGIONS = ['super_uORF', 'annotated', 'super_dORF']
 
 
 def mkdir_p(path):

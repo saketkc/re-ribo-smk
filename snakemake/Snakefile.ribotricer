@@ -23,7 +23,8 @@ if GTF_VERSION not in STAR_INDEX:
   STAR_INDEX = STAR_INDEX + '_' + GTF_VERSION
 
 
-REGIONS = ['super_uORF', 'annotated', 'super_dORF']
+REGIONS = ['super_uORF,uORF', 'super_uORF,uORF,overlap_uORF', 'super_uORF,overlap_uORF', 'annotated', 'super_dORF']
+#REGIONS = ['super_uORF', 'annotated', 'super_dORF']
 
 
 def mkdir_p(path):

@@ -9,9 +9,6 @@ __default__:
 count_orfs:
     mem: '61GB'
 
-predict_orfs:
-    mem: '61GB'
-
 create_index:
     cores: 16
     mem: '1GB'
@@ -98,7 +95,7 @@ report:
 predict_orfs:
     cores: 1
     time: '12:00:00'
-    mem: '120gb'
+    mem: '61gb'
 
 featurecounts:
     cores: 16

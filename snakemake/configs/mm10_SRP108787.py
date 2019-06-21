@@ -1,5 +1,5 @@
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/mm10/SRP074765'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/mm10/SRP074765'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/mm10/SRP108787'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/mm10/SRP108787'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/mm10/fasta/Mus_musculus.GRCm38.dna.primary_assembly.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/mm10/fasta/Mus_musculus.GRCm38.dna.primary_assembly.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/mm10/star_annotated_ribopod'

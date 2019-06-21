@@ -137,7 +137,7 @@ rule create_index:
 rule sra_to_fastq:
     input: sra_to_fastq_input
     benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
-    output: 'sratofastq/{sample}.fastq.gz'
+    output: temp('sratofastq/{sample}.fastq.gz')
     threads: 16
     params:
         prefix_sra='sratofastq/{sample}.sra.fastq',
@@ -155,8 +155,8 @@ rule perform_trimming:
         R1 = 'sratofastq/{sample}.fastq.gz'
     benchmark: 'benchmarks/perform_trimming/{sample}.txt'
     output:
-        pass1_fq = 'preprocessed_step1/{sample}_trimmed.fq.gz',
-        pass2_fq = 'preprocessed/{sample}_trimmed_trimmed.fq.gz',
+        pass1_fq = temp('preprocessed_step1/{sample}_trimmed.fq.gz'),
+        pass2_fq = temp('preprocessed/{sample}_trimmed_trimmed.fq.gz'),
         pass1_fq_report = 'preprocessed_step1/{sample}.fastq.gz_trimming_report.txt',
         #pass2_fq_report = 'preprocessed/{sample}_trimmed.fq.gz_trimming_report.txt',
     params:

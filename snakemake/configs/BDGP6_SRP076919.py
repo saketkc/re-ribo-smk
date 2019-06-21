@@ -1,5 +1,5 @@
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/BDGP6/SRP108999'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/BDGP6/SRP108999'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/BDGP6/SRP076919'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/BDGP6/SRP076919'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/BDGP6/fasta/Drosophila_melanogaster.BDGP6.22.dna.toplevel.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/BDGP6/fasta/Drosophila_melanogaster.BDGP6.22.dna.toplevel.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/BDGP6/star_annotated_ribopod'

@@ -62,7 +62,7 @@ fragment_length_pickle:
 merge_bams:
     cores: 1
     time: '12:00:00'
-    mem: '110gb'
+    mem: '115gb'
 
 pickle_counts_cds:
     cores: 1

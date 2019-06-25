@@ -1,0 +1,2 @@
+ls -1 configs/hg38* | cut -f2 -d $'/' | tr -d '.py' | parallel "bash submitall.ribocop.sh {}"
+

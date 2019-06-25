@@ -145,10 +145,6 @@ rule sra_to_fastq:
         temp_dir='/tmp/{sample}_sratofastq',
     shell:
         r'''parallel-fastq-dump --threads 16 --outdir sratofastq/ --gzip -s {input}'''
-        #r'''
-        #fastq-dump --split-3 \
-        #        -O sratofastq {input} \
-        #        && gzip {params.prefix}'''
 
 rule perform_trimming:
     input:

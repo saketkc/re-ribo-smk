@@ -136,7 +136,6 @@ rule create_index:
 
 rule sra_to_fastq:
     input: sra_to_fastq_input
-    benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
     output: temp('sratofastq/{sample}.fastq.gz')
     threads: 16
     params:
@@ -149,7 +148,6 @@ rule sra_to_fastq:
 rule perform_trimming:
     input:
         R1 = 'sratofastq/{sample}.fastq.gz'
-    benchmark: 'benchmarks/perform_trimming/{sample}.txt'
     output:
         pass1_fq = temp('preprocessed_step1/{sample}_trimmed.fq.gz'),
         pass2_fq = temp('preprocessed/{sample}_trimmed_trimmed.fq.gz'),
@@ -181,7 +179,6 @@ rule map_star:
     input:
         R1 = 'preprocessed/{sample}_trimmed_trimmed.fq.gz',
         index = ancient(STAR_INDEX)
-    benchmark: 'benchmarks/map_star/{sample}.txt'
     output:
         bam = 'bams_srr/{sample}.bam',
         txbam = 'bams_srr_tx/{sample}.bam',
@@ -198,7 +195,6 @@ rule map_star:
 
 rule merge_bams:
     input: merge_bams_input
-    benchmark: 'benchmarks/merge_bams/{sample}.txt'
     output: temp('bams/{sample}.bam')
     params:
         tmp_dir = '/tmp'
@@ -209,7 +205,6 @@ rule merge_bams:
 
 rule extract_uniq_mapping:
     input: 'bams/{sample}.bam'
-    benchmark: 'benchmarks/extract_uniq_mapping/{sample}.txt'
     output: 'bams_unique/{sample}.bam'
     params:
         tmp_dir = '/tmp'
@@ -223,7 +218,6 @@ rule predict_orfs:
     bam = 'bams_unique/{sample}.bam',
     index = RIBOTRICER_ANNOTATION
   output: 'ribotricer_results/{sample}_translating_ORFs.tsv'
-  benchmark: 'time_benchmarks/ribotricer/predict_orfs/{sample}.txt'
   params:
     prefix = 'ribotricer_results/{sample}',
   shell:
@@ -233,7 +227,6 @@ rule predict_orfs:
 rule count_orfs:
   input: 'ribotricer_results/{sample}_translating_ORFs.tsv'
   output: 'ribotricer_results/region_counts/{region}/{sample}_counts_cnt.txt'
-  benchmark: 'time_benchmarks/ribotricer/count_orfs/{region}/{sample}.txt'
   params:
     prefix = 'ribotricer_results/region_counts/{region}/{sample}_counts',
     region = '{region}'

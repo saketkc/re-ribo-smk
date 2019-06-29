@@ -1,4 +1,5 @@
 #!/bin/bash
+#conda activate ribopod
 snakemake --snakefile Snakefile.ribotricer\
     --config config_path=configs/$1.py\
     --js $PWD/jobscript.sh\

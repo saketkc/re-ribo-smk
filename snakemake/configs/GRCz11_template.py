@@ -1,5 +1,5 @@
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/GRCz11/SRP098789'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/GRCz11/SRP098789'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/GRCz11/'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/GRCz11/'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/GRCz11/fasta/Danio_rerio.GRCz11.dna.primary_assembly.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/GRCz11/fasta/Danio_rerio.GRCz11.dna.primary_assembly.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/GRCz11/star_annotated_ribopod'

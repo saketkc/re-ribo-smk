@@ -180,8 +180,8 @@ rule map_star:
         R1 = 'preprocessed/{sample}_trimmed_trimmed.fq.gz',
         index = ancient(STAR_INDEX)
     output:
-        bam = 'bams_srr/{sample}.bam',
-        txbam = 'bams_srr_tx/{sample}.bam',
+        bam = temp('bams_srr/{sample}.bam'),
+        txbam = temp('bams_srr_tx/{sample}.bam'),
         counts = 'STARcounts/{sample}.counts',
         starlogs = 'starlogs/{sample}Log.final.out'
     params:

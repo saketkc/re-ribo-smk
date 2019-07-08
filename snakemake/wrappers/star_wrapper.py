@@ -56,6 +56,7 @@ with tempfile.TemporaryDirectory(dir=snakemake.params.tmp_dir) as temp_dir:
                 --outFilterMatchNmin 16\
                 --seedSearchStartLmax 15\
                 --winAnchorMultimapNmax 200\
+                --limitOutSJcollapsed 2000000\
                 && samtools sort -@ {snakemake.threads} {OUT_PREFIX}Aligned.out.bam -o {snakemake.output.bam} -T {temp_dir}/{TMP_DIR_SAMPLE}_sort\
                 && mv {OUT_PREFIX}Aligned.toTranscriptome.out.bam {snakemake.output.txbam}\
                 && samtools index {snakemake.output.bam}\

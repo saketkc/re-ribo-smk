@@ -83,6 +83,7 @@ if __name__ == "__main__":
                 os.path.dirname(__SRP_TO_ROOT_DIR_MAP__[srp][species])
             )
             project_filepath = "{}/{}/{}".format(basedir, species, srp)
+            print(project_filepath)
             summarized_orf_filepath = "{}/{}/{}_summarized_orfs.tsv".format(
                 SUMMARY_ROOT_DIR, species, srp
             )

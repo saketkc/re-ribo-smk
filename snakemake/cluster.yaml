@@ -120,3 +120,7 @@ quantify_cds:
 quantify_cdna:
     cores: 16
     mem: '60GB'
+
+extract_uniq_mapping:
+    cores: 16
+    mem: '60GB'

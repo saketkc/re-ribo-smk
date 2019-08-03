@@ -1,44 +1,18 @@
-## Absolute location where all raw files are
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/samples_to_process/SRP014542'
-
-## Output directory
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP014542'  #_alignEndToEnd'
-
-## Genome fasta location
-GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/hg38.fa'
-
-## Chromosome sizes location
-CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/hg38.chrom.sizes'
-
-## Path to STAR index (will be generated if does not exist)
-STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/hg38/star_annotated'
-
-## GTF path
-GTF = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.annotation.without_rRNA_tRNA.gtf'
-
-## GenePred bed downloaded from UCSC
-## (this is used for inferring the type of experiment i.e stranded/non-stranded
-## and hence is not required)
-GENE_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v24.genes.bed'
-
-## Path to bed file with start codon coordinates
-START_CODON_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.gffutils.start_codon.bed'
-
-## Path to bed file with stop codon coordinates
-STOP_CODON_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.gffutils.stop_codon.bed'
-
-## Path to bed file containing CDS coordinates
-CDS_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.gffutils.cds.bed'
-
-# We don't have these so just use CDs bed to get the pipeline running
-UTR5_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.gffutils.UTR5.bed'
-
-UTR3_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.gffutils.UTR3.bed'
-
-INTRON_BED = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/gencode.v25.gffutils.intron.bed'
-
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/hg38/SRP014542'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP014542'
+GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa'
+CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/Homo_sapiens.GRCh38.dna_sm.primary_assembly.sizes'
+STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/hg38/star_annotated_ribopod'
+GTF_VERSION = 'v96'
+GTF = '/home/cmb-panasas2/skchoudh/genomes/hg38/annotation/Homo_sapiens.GRCh38.96.gtf'
+GENE_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/gene.bed.gz'
+STAR_CODON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/start_codon.bed.gz'
+STOP_CODON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/stop_codon.bed.gz'
+CDS_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/cds.bed.gz'
+UTR5_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/utr5.bed.gz'
+UTR3_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/utr3.bed.gz'
+INTRON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/v96/intron.bed.gz'
 ORIENTATIONS = ['5prime', '3prime']
-
 STRANDS = ['pos', 'neg', 'combined']
-
-FRAGMENT_LENGTHS = range(20, 39)
+FRAGMENT_LENGTHS =  range(18, 39)
+RIBOTRICER_ANNOTATION_PREFIX = '/home/cmb-06/as/skchoudh/genomes/hg38/ribotricer_v96_annotation_longest'

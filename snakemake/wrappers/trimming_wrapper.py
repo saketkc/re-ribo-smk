@@ -53,7 +53,7 @@ if adapter is None or adapter == 'default':
     # since no adater was provided
     histogram = fastq_kmer_histogram(output_1)
     adapter2 = get_top_kmer(histogram)
-    if adapter2 is None:
+    if adapter2 is None or 'NNN' in adapter2:
         # Else just copy
         shell(r'''cp -r {output_1} {output_2}''')
         shell(

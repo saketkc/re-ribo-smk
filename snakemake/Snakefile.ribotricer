@@ -159,7 +159,8 @@ rule perform_trimming:
         phred_cutoff = 5,
         min_length = 18, # Discard sequences shorter than this length
         max_length = 38, # Discard sequences longer than this length
-        adapter = ADAPTER
+        adapter = ADAPTER,
+        sample = '{sample}',
         # --max_length for SmallRNA: Should let to 37?
         # --illumina: For adapter trimming?
     wrapper:

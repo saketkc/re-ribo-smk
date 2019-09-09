@@ -41,6 +41,7 @@ pass2_dir = snakemake.params.pass2_dir
 output_1 = snakemake.output.pass1_fq
 output_2 = snakemake.output.pass2_fq
 adapter = snakemake.params.adapter
+sample = snakemake.params.sample
 output_1_report = output_1 + '_trimming_report.txt'
 output_2_report = output_2 + '_trimming_report.txt'
 
@@ -64,6 +65,9 @@ if adapter is None or adapter == 'default':
             -q {params.phred_cutoff} {output_1}''')
 
 else:
+    if isinstance(adapter, dict):
+      adapter = adapter[sample]
+
     shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
           -a {adapter} \
           -q {params.phred_cutoff} {snakemake.input.R1}''')

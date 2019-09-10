@@ -41,6 +41,7 @@ pass2_dir = snakemake.params.pass2_dir
 output_1 = snakemake.output.pass1_fq
 output_2 = snakemake.output.pass2_fq
 adapter = snakemake.params.adapter
+adapter_is_5prime = snakemake.params.adapter_is_5prime
 sample = snakemake.params.sample
 output_1_report = output_1 + '_trimming_report.txt'
 output_2_report = output_2 + '_trimming_report.txt'
@@ -67,10 +68,18 @@ if adapter is None or adapter == 'default':
 else:
     if isinstance(adapter, dict):
       adapter = adapter[sample]
+    if adapter_is_5prime:
+      shell(r'''cutadapt --minimum-length {params.min_length} \
+            -g {adapter} \
+            -q {params.phred_cutoff} -o {output_1} {snakemake.input.R1}''')
+      shell(
+          r'''echo "Used user provided 5' adapter for one pass only (no second pass)" > {output_1_report}'''
+      )
 
-    shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
-          -a {adapter} \
-          -q {params.phred_cutoff} {snakemake.input.R1}''')
+    else:
+      shell(r'''trim_galore -o {pass1_dir} --length {params.min_length} \
+            -a {adapter} \
+            -q {params.phred_cutoff} {snakemake.input.R1}''')
     shell(r'''cp -r {output_1} {output_2}''')
     shell(
         r'''echo "Used user provided adapter for one pass only (no second pass)" > {output_2_report}'''

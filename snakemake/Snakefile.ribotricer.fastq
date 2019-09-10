@@ -8,7 +8,6 @@ from os.path import join
 
 GTF_VERSION = None
 ADAPTER = None
-ADAPTER_IS_5PRIME = False
 RIBOTRICER_ANNOTATION_PREFIX = None
 
 include: config['config_path']
@@ -92,10 +91,7 @@ def get_multiqc_report_input(wildcards):
 
 rule all:
   input:
-    expand('ribotricer_results/{sample}_translating_ORFs.tsv', sample=SRX_SAMPLES), 
-    expand('ribotricer_results/region_counts/{region}/{sample}_counts_cnt.txt', region=REGIONS, sample=SRX_SAMPLES),
-    'featureCounts_exon/fcounts.tsv',
-    'featureCounts_CDS/fcounts.tsv'
+    expand('preprocessed_step1/{sample}.fastq.gz_trimming_report.txt', sample=ALL_SRR)
 
 
 def total_genome_size():
@@ -137,7 +133,7 @@ rule create_index:
 
 rule sra_to_fastq:
     input: sra_to_fastq_input
-    output: temp('sratofastq/{sample}.fastq.gz')
+    output: 'sratofastq/{sample}.fastq.gz'
     threads: 16
     params:
         prefix_sra='sratofastq/{sample}.sra.fastq',
@@ -150,8 +146,8 @@ rule perform_trimming:
     input:
         R1 = 'sratofastq/{sample}.fastq.gz'
     output:
-        pass1_fq = temp('preprocessed_step1/{sample}_trimmed.fq.gz'),
-        pass2_fq = temp('preprocessed/{sample}_trimmed_trimmed.fq.gz'),
+        pass1_fq = 'preprocessed_step1/{sample}_trimmed.fq.gz',
+        pass2_fq = 'preprocessed/{sample}_trimmed_trimmed.fq.gz',
         pass1_fq_report = 'preprocessed_step1/{sample}.fastq.gz_trimming_report.txt',
         #pass2_fq_report = 'preprocessed/{sample}_trimmed.fq.gz_trimming_report.txt',
     params:
@@ -161,7 +157,6 @@ rule perform_trimming:
         min_length = 18, # Discard sequences shorter than this length
         max_length = 38, # Discard sequences longer than this length
         adapter = ADAPTER,
-        adapter_is_5prime = ADAPTER_IS_5PRIME,
         sample = '{sample}',
         # --max_length for SmallRNA: Should let to 37?
         # --illumina: For adapter trimming?

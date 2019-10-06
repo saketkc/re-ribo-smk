@@ -16,3 +16,4 @@ ORIENTATIONS = ['5prime', '3prime']
 STRANDS = ['pos', 'neg', 'combined']
 FRAGMENT_LENGTHS =  range(18, 39)
 RIBOTRICER_ANNOTATION_PREFIX = '/home/cmb-06/as/skchoudh/genomes/JGI_4.2/ribotricer_v96_annotation_longest'
+ADAPTER = 'GATCGTCGGACTGTAGAACTCTGAACTCTTATGC'

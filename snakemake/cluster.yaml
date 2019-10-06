@@ -9,10 +9,6 @@ __default__:
 count_orfs:
     mem: '61GB'
 
-create_index:
-    cores: 16
-    mem: '1GB'
-
 sra_to_fastq:
     cores: 16
     mem: '8gb'
@@ -35,8 +31,8 @@ create_index:
 
 prepare_orfs:
     cores: 1
-    mem: '100gb'
-    time: '60:00:00'
+    mem: '110gb'
+    time: '72:00:00'
 
 
 map_star:

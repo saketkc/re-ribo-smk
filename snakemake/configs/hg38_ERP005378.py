@@ -1,5 +1,5 @@
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/hg38/SRP033369'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP033369'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/hg38/ERP005378'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/ERP005378'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/hg38/fasta/Homo_sapiens.GRCh38.dna_sm.primary_assembly.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/hg38/star_annotated_ribopod'
@@ -16,4 +16,3 @@ ORIENTATIONS = ['5prime', '3prime']
 STRANDS = ['pos', 'neg', 'combined']
 FRAGMENT_LENGTHS =  range(18, 39)
 RIBOTRICER_ANNOTATION_PREFIX = '/home/cmb-06/as/skchoudh/genomes/hg38/ribotricer_v96_annotation_longest'
-ADAPTER = 'GATCGTCGGACTGTAGAACTCTGAACTCTTATGC'

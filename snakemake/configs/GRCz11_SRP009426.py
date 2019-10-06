@@ -1,5 +1,5 @@
-RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/GRCz11/SRP010040'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/GRCz11/SRP010040'
+RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/GRCz11/SRP009426'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/GRCz11/SRP009426'
 GENOME_FASTA = '/home/cmb-panasas2/skchoudh/genomes/GRCz11/fasta/Danio_rerio.GRCz11.dna.primary_assembly.fa'
 CHROM_SIZES = '/home/cmb-panasas2/skchoudh/genomes/GRCz11/fasta/Danio_rerio.GRCz11.dna.primary_assembly.sizes'
 STAR_INDEX = '/home/cmb-panasas2/skchoudh/genomes/GRCz11/star_annotated_ribopod'
@@ -16,4 +16,3 @@ ORIENTATIONS = ['5prime', '3prime']
 STRANDS = ['pos', 'neg', 'combined']
 FRAGMENT_LENGTHS =  range(18, 39)
 RIBOTRICER_ANNOTATION_PREFIX = '/home/cmb-06/as/skchoudh/genomes/GRCz11/ribotricer_v96_annotation_longest'
-ADAPTER = 'ATCTCGTATGCCGTCTTCTGCTTGAAAAAAAAA'

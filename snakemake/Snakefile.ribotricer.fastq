@@ -158,6 +158,7 @@ rule perform_trimming:
         max_length = 38, # Discard sequences longer than this length
         adapter = ADAPTER,
         sample = '{sample}',
+        adapter_is_five_prime = False,
         # --max_length for SmallRNA: Should let to 37?
         # --illumina: For adapter trimming?
     wrapper:

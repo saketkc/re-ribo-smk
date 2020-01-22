@@ -4,7 +4,7 @@ RAWDATA_DIR = ''
 
 ## Output directory (will be created if does not exist)
 OUT_DIR = ''
-#OUT_DIR = '/home/cmb-panasas2/skchoudh/riboraptor-analysis/SRP000637_two_samples'
+#OUT_DIR = '/home/qcb-panasas/skchoudh/riboraptor-analysis/SRP000637_two_samples'
 
 ## Genome fasta location
 GENOME_FASTA = ''
@@ -25,16 +25,16 @@ GTF = ''
 
 ## Path to bed file containing Intron coordinates
 INTRON_BED = ''
-#INTRON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/intron.bed'
+#INTRON_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/intron.bed'
 
 ## Path to bed file containing CDS coordinates
 CDS_BED = ''
-#CDS_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/cds.bed'
+#CDS_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/cds.bed'
 
 ## Path to bed file containing 5'UTR coordinates
 UTR5_BED = ''
-#UTR5_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/utr5.bed'
+#UTR5_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/utr5.bed'
 
 ## Path to bed file containing 3'UTR coordinates
 UTR3_BED = ''
-#UTR3_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/utr3.bed'
+#UTR3_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/sacCerR64/utr3.bed'

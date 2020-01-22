@@ -31,16 +31,16 @@ GTF = ''
 
 ## Path to bed file containing Intron coordinates
 INTRON_BED = ''
-#INTRON_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/intron.bed'
+#INTRON_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/intron.bed'
 
 ## Path to bed file containing CDS coordinates
 CDS_BED = ''
-#CDS_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/cds.bed'
+#CDS_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/cds.bed'
 
 ## Path to bed file containing 5'UTR coordinates
 UTR5_BED = ''
-#UTR5_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/utr5.bed'
+#UTR5_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/utr5.bed'
 
 ## Path to bed file containing 3'UTR coordinates
 UTR3_BED = ''
-#UTR3_BED = '/home/cmb-panasas2/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/utr3.bed'
+#UTR3_BED = '/home/qcb-panasas/skchoudh/github_projects/riboraptor/riboraptor/annotation/hg38/utr3.bed'

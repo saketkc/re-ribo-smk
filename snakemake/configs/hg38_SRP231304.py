@@ -1,5 +1,5 @@
 RAWDATA_DIR = '/staging/as/skchoudh/re-ribo-datasets/hg38/SRP231304'
-OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/'
+OUT_DIR = '/staging/as/skchoudh/re-ribo-analysis/hg38/SRP231304'
 GENOME_FASTA = '/home/qcb-panasas/skchoudh/genomes/hg38/fasta/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa'
 CHROM_SIZES = '/home/qcb-panasas/skchoudh/genomes/hg38/fasta/Homo_sapiens.GRCh38.dna_sm.primary_assembly.sizes'
 STAR_INDEX = '/home/qcb-panasas/skchoudh/genomes/hg38/star_annotated_ribopod'

@@ -10,4 +10,4 @@ snakemake --snakefile Snakefile.ribotricer\
     --stats $PWD/stats/$1.riboraptor.stats\
     --rerun-incomplete\
     -j 200\
-    --cluster 'sbatch --partition={cluster.partition} --ntasks={cluster.cores} --mem={cluster.mem} --time={cluster.time} -o {cluster.logout} -e {cluster.logerror}'
+    --cluster 'sbatch --partition={cluster.partition} --nodes=1 --ntasks={cluster.cores} --mem={cluster.mem} --time={cluster.time} -o {cluster.logout} -e {cluster.logerror}'

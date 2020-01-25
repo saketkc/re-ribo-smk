@@ -111,11 +111,11 @@ rsem_counts:
 
 quantify_cds:
     cores: 16
-    mem: '60GB'
+    mem: '100GB'
 
 quantify_cdna:
     cores: 16
-    mem: '60GB'
+    mem: '100GB'
 
 extract_uniq_mapping:
     cores: 16

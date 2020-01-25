@@ -234,7 +234,7 @@ rule count_orfs:
     prefix = 'ribotricer_results/region_counts/{region}/{sample}_counts',
     region = '{region}'
   shell:
-    r'''ribotricer count-orfs --report_all --ribotricer_index {RIBOTRICER_ANNOTATION} --features {params.region} --detected_orfs {input} --prefix {params.prefix}'''
+    r'''ribotricer count-orfs --report_all --ribotricer_index {RIBOTRICER_ANNOTATION} --features {params.region} --detected_orfs {input} --out {output}'''
 
 rule featurecounts:
     input:

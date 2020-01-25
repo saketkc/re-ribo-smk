@@ -34,6 +34,7 @@ include:
 workdir: OUT_DIR
 
 
+RIBOTRICER_ANNOTATION = RIBOTRICER_ANNOTATION_PREFIX + "_candidate_orfs.tsv"
 mkdir_p(join(OUT_DIR, 'slurm-logs'))
 ALL_SRA_FILES = glob.glob('{}/**/*.sra'.format(RAWDATA_DIR), recursive=True)
 SRX_ID = defaultdict(list)
@@ -69,12 +70,14 @@ def get_wrapper(wrapper_name):
 
 rule all:
     input:
-        CDNA_IDX,
-        CDS_IDX,
+        #CDNA_IDX,
+        #CDS_IDX,
         expand('counts_cdna/{sample}/abundance.tsv', sample=SRX_SAMPLES),
-        expand('counts_cds/{sample}/abundance.tsv', sample=SRX_SAMPLES)
+        expand('ribotricer_results/{sample}_translating_ORFs.tsv', sample=SRX_SAMPLES),
+        #expand('counts_cds/{sample}/abundance.tsv', sample=SRX_SAMPLES)
 
 
+"""
 rule sra_to_fastq:
     input: sra_to_fastq_input
     benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
@@ -93,7 +96,6 @@ rule sra_to_fastq:
 
 rule sra_to_fastq:
     input: sra_to_fastq_input
-    benchmark: 'benchmarks/sra_to_fastq/{sample}.txt'
     output: 'sratofastq/{sample}.fastq.gz'
     params:
         prefix_sra='sratofastq/{sample}.sra.fastq',
@@ -104,7 +106,6 @@ rule sra_to_fastq:
         r'''
         parallel-fastq-dump --threads 16 --outdir sratofastq/ --gzip -s {input}
         '''
-"""
 
 rule merge_fastq:
     input:
@@ -115,11 +116,21 @@ rule merge_fastq:
     wrapper:
         get_wrapper('merge_fastq_wrapper')
 
+
+rule fastqz_to_fastq:
+    input: 'fastq_merged/{sample}.fastq.gz',
+    output:
+        'fastq_merged_unzipped/{sample}.fastq'
+    shell:
+      r'''zcat {input} > {output}'''
+
+
 rule quantify_cdna:
     input:
-        R1='fastq_merged/{sample}.fastq.gz',
+        R1='fastq_merged_unzipped/{sample}.fastq',
     output:
-        'counts_cdna/{sample}/abundance.tsv',
+        abundance = 'counts_cdna/{sample}/abundance.tsv',
+        bam = 'counts_cdna/{sample}/pseudoalignments.bam',
     params:
         index=CDNA_IDX,
         outdir='counts_cdna/{sample}'
@@ -133,7 +144,11 @@ rule quantify_cdna:
         -s 30 \
         --output-dir={params.outdir} \
         --single \
-        -b 100 <(zcat {input.R1})'''
+        --genomebam \
+        --gtf {GTF} \
+        -b 100 {input.R1}'''
+
+"""
 rule quantify_cds:
     input:
         R1='fastq_merged/{sample}.fastq.gz',
@@ -153,3 +168,15 @@ rule quantify_cds:
         --output-dir={params.outdir} \
         --single \
         -b 100 <(zcat {input.R1})'''
+
+
+"""
+rule predict_orfs:
+  input:
+    bam = 'counts_cdna/{sample}/pseudoalignments.bam',
+    index = RIBOTRICER_ANNOTATION
+  output: 'ribotricer_results/{sample}_translating_ORFs.tsv'
+  params:
+    prefix = 'ribotricer_results/{sample}',
+  shell:
+    r'''ribotricer detect-orfs --report_all --bam {input.bam} --prefix {params.prefix} --ribotricer_index {input.index}'''

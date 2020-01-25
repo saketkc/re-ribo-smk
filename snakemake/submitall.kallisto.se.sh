@@ -1,5 +1,4 @@
 #!/bin/bash
-source activate ribocop_feb2019
 snakemake --snakefile Snakefile.kallisto.se\
     --config config_path=kallisto-configs/$1.py\
     --js $PWD/jobscript.sh\
@@ -10,4 +9,4 @@ snakemake --snakefile Snakefile.kallisto.se\
     --stats $PWD/stats/$1.riboraptor.stats\
     --rerun-incomplete\
     -j 200\
-    --cluster 'sbatch --partition={cluster.partition} --ntasks={cluster.cores} --mem={cluster.mem} --time={cluster.time} -o {cluster.logout} -e {cluster.logerror}'
+    --cluster 'sbatch --partition={cluster.partition} --nodes=1 --ntasks={cluster.cores} --mem={cluster.mem} --time={cluster.time} -o {cluster.logout} -e {cluster.logerror}'

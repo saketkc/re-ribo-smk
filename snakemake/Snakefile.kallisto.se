@@ -28,6 +28,11 @@ def mkdir_p(path):
       else:
         raise
 
+GTF_VERSION = None
+ADAPTER = None
+ADAPTER_IS_FIVE_PRIME = False
+RIBOTRICER_ANNOTATION_PREFIX = None
+
 include:
     config['config_path']
 
@@ -116,9 +121,31 @@ rule merge_fastq:
     wrapper:
         get_wrapper('merge_fastq_wrapper')
 
+rule perform_trimming:
+    input:
+        R1 = 'fastq_merged/{sample}.fastq.gz'
+    output:
+        pass1_fq = temp('preprocessed_step1/{sample}_trimmed.fq.gz'),
+        pass2_fq = temp('preprocessed/{sample}_trimmed_trimmed.fq.gz'),
+        pass1_fq_report = 'preprocessed_step1/{sample}.fastq.gz_trimming_report.txt',
+        #pass2_fq_report = 'preprocessed/{sample}_trimmed.fq.gz_trimming_report.txt',
+    params:
+        pass1_dir = 'preprocessed_step1',
+        pass2_dir = 'preprocessed',
+        phred_cutoff = 5,
+        min_length = 18, # Discard sequences shorter than this length
+        max_length = 38, # Discard sequences longer than this length
+        adapter = ADAPTER,
+        adapter_is_five_prime = ADAPTER_IS_FIVE_PRIME,
+        sample = '{sample}',
+        # --max_length for SmallRNA: Should let to 37?
+        # --illumina: For adapter trimming?
+    wrapper:
+        get_wrapper('trimming_wrapper')
+
 
 rule fastqz_to_fastq:
-    input: 'fastq_merged/{sample}.fastq.gz',
+    input: 'preprocessed/{sample}_trimmed_trimmed.fq.gz'
     output:
         'fastq_merged_unzipped/{sample}.fastq'
     shell:
